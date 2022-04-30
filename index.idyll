@@ -147,6 +147,8 @@ You can install custom dependencies by running `npm install <package-name> --sav
 
 [IdyllVegaLite data:seattleWeather spec:`{
   "title":"Seattle Weather",
+  "width": "container",
+  "height": 350,
   "mark": "bar",
   "encoding": {
     "x": {
