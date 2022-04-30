@@ -161,6 +161,10 @@ You can install custom dependencies by running `npm install <package-name> --sav
       "aggregate": "count",
       "type": "quantitative"
     },
+    "tooltip": [
+      {"field": "date", "type": "ordinal", "timeUnit": "month"},
+      {"aggregate": "count", "type": "quantitative"}
+    ],
     "color": {
       "field": "weather",
       "type": "nominal",
