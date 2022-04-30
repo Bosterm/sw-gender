@@ -143,36 +143,24 @@ You can install custom dependencies by running `npm install <package-name> --sav
 
 ## Added: test vega-lite
 
-[data name:"seattleWeather" source:"seattle-weather.csv" /]
+[data name:"barley" source:"barley.json" /]
 
-[IdyllVegaLite data:seattleWeather spec:`{
-  "title":"Seattle Weather",
+[IdyllVegaLite data:barley spec:`{
+  "title":"Barley",
   "width": "container",
   "height": 350,
   "mark": "bar",
   "encoding": {
-    "x": {
-      "timeUnit": "month",
-      "field": "date",
-      "type": "ordinal",
-      "title": "Month of the year"
-    },
-    "y": {
-      "aggregate": "count",
-      "type": "quantitative"
-    },
+    "x": {"field": "variety"},
+    "y": {"aggregate": "sum", "field": "yield"},
     "tooltip": [
-      {"field": "date", "type": "ordinal", "timeUnit": "month"},
-      {"aggregate": "count", "type": "quantitative"}
+      {"field": "variety"},
+      {"aggregate": "sum", "field": "yield"}
     ],
     "color": {
-      "field": "weather",
+      "field": "site",
       "type": "nominal",
       "legend": {"orient":"bottom"},
-      "scale": {
-        "domain": ["sun", "fog", "drizzle", "rain", "snow"],
-        "range": ["#e7ba52", "#c7c7c7", "#aec7e8", "#1f77b4", "#9467bd"]
-      },
       "title": "Weather type"
     }
   }
