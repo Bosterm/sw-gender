@@ -143,21 +143,29 @@ You can install custom dependencies by running `npm install <package-name> --sav
 
 ## Added: test vega-lite
 
-[data name:"lakeHuron" source:"LakeHuron.csv" /]
+[data name:"seattleWeather" source:"seattle-weather.csv" /]
 
-[IdyllVegaLite data:lakeHuron spec:`{
-  mark: "line",
-  encoding: {
-    x: {
-      field: "time",
-      type: "temporal",
-      axis: {title: "Year", format:"%Y"}
+[IdyllVegaLite data:seattleWeather spec:`{
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "timeUnit": "month",
+      "field": "date",
+      "type": "ordinal",
+      "title": "Month of the year"
     },
-    y: {
-      field: "value",
-      type: "quantitative",
-      axis: {title: "Water level"},
-      scale: { domain: [575, 582] }
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "weather",
+      "type": "nominal",
+      "scale": {
+        "domain": ["sun", "fog", "drizzle", "rain", "snow"],
+        "range": ["#e7ba52", "#c7c7c7", "#aec7e8", "#1f77b4", "#9467bd"]
+      },
+      "title": "Weather type"
     }
   }
 }` /]
