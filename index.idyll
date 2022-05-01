@@ -143,12 +143,12 @@ You can install custom dependencies by running `npm install <package-name> --sav
 
 ## Added: test vega-lite
 
-[data name:"anh-tlj" source:"anh-tlj.csv" /]
+[data name:"StarWarsCharacters" source:"StarWarsCharacters.csv" /]
 
-[IdyllVegaLite data:anh-tlj spec:`{
+[IdyllVegaLite data:StarWarsCharacters spec:`{
   "title":"Number of Words By Gender",
   "width": "container",
-  "height": 350,
+  "height": 500,
   "resolve": {"scale": {"color": "independent"}},
   "layer": [
      {"mark": "bar",

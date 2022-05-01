@@ -1,0 +1,673 @@
+﻿Character,Line Count,Dialogue Duration (sec),Wookieepedia Article,Gender,Movie,Word Count
+Qui-Gon,283,782.417,https://starwars.fandom.com/wiki/Qui-Gon_Jinn,Male,The Phantom Menace,1866
+Jar Jar,209,563.077,https://starwars.fandom.com/wiki/Jar_Jar_Binks,Male,The Phantom Menace,731
+Anakin,196,533.289,https://starwars.fandom.com/wiki/Anakin_Skywalker,Male,The Phantom Menace,1077
+Padmé,142,378.079,https://starwars.fandom.com/wiki/Padm%C3%A9_Amidala,Female,The Phantom Menace,909
+Palpatine,91,276.332,https://starwars.fandom.com/wiki/Darth_Sidious,Male,The Phantom Menace,647
+Kenobi,82,227.537,https://starwars.fandom.com/wiki/Obi-Wan_Kenobi,Male,The Phantom Menace,531
+Watto,74,216.709,https://starwars.fandom.com/wiki/Watto,Male,The Phantom Menace,449
+Nute,62,191.208,https://starwars.fandom.com/wiki/Nute_Gunray,Male,The Phantom Menace,422
+Panaka,53,144.747,https://starwars.fandom.com/wiki/Quarsh_Panaka,Male,The Phantom Menace,344
+R2-D2,51,133.916,https://starwars.fandom.com/wiki/R2-D2,Male,The Phantom Menace,0
+Shmi,50,135.373,https://starwars.fandom.com/wiki/Shmi_Skywalker_Lars,Female,The Phantom Menace,253
+Boss Nass,44,128.622,https://starwars.fandom.com/wiki/Rugor_Nass,Male,The Phantom Menace,146
+Yoda,40,110.707,https://starwars.fandom.com/wiki/Yoda,Male,The Phantom Menace,206
+Fode,39,120.459,https://starwars.fandom.com/wiki/Fodesinbeed_Annodue,Male,The Phantom Menace,277
+C-3PO,27,76.498,https://starwars.fandom.com/wiki/C-3PO,Male,The Phantom Menace,160
+Sebulba,27,63.415,https://starwars.fandom.com/wiki/Sebulba,Male,The Phantom Menace,72
+Mace,23,59.042,https://starwars.fandom.com/wiki/Mace_Windu,Male,The Phantom Menace,163
+Sabé,18,51.166,https://starwars.fandom.com/wiki/Sab%C3%A9,Female,The Phantom Menace,102
+Ric Olie,18,48.792,https://starwars.fandom.com/wiki/Ric_Oli%C3%A9,Male,The Phantom Menace,104
+Bibble,17,44.289,https://starwars.fandom.com/wiki/Sio_Bibble,Male,The Phantom Menace,102
+Tarpals,17,42.666,https://starwars.fandom.com/wiki/Roos_Tarpals,Male,The Phantom Menace,65
+Beed,15,42.625,https://starwars.fandom.com/wiki/Fodesinbeed_Annodue,Male,The Phantom Menace,73
+Rune,14,38.584,https://starwars.fandom.com/wiki/Rune_Haako,Male,The Phantom Menace,86
+Kitster,11,29.626,https://starwars.fandom.com/wiki/Kitster_Banai,Male,The Phantom Menace,48
+Daultay Dofine,10,26.251,https://starwars.fandom.com/wiki/Daultay_Dofine,Male,The Phantom Menace,52
+Oom-9,10,24.167,https://starwars.fandom.com/wiki/OOM-9,Male,The Phantom Menace,50
+Valorum,9,27.917,https://starwars.fandom.com/wiki/Finis_Valorum,Male,The Phantom Menace,85
+TC-14,8,19.793,https://starwars.fandom.com/wiki/TC-14,Female,The Phantom Menace,37
+Jabba,7,17.376,https://starwars.fandom.com/wiki/Jabba_Desilijic_Tiure,Male,The Phantom Menace,7
+Tey How,7,20.917,https://starwars.fandom.com/wiki/Tey_How,Female,The Phantom Menace,40
+Maul,6,14.791,https://starwars.fandom.com/wiki/Maul,Male,The Phantom Menace,33
+Eopie,5,11.374,https://starwars.fandom.com/wiki/Eopie,Unknown gender,The Phantom Menace,0
+Lott Dod,5,13.875,https://starwars.fandom.com/wiki/Lott_Dod,Male,The Phantom Menace,30
+Pit Droid,5,11.207,https://starwars.fandom.com/wiki/DUM-series_pit_droid,Unknown gender,The Phantom Menace,1
+Wald,4,9.958,https://starwars.fandom.com/wiki/Wald,Male,The Phantom Menace,11
+Gungan,4,7.624,https://starwars.fandom.com/wiki/Gungan,Unknown gender,The Phantom Menace,7
+Maoi Madakor,4,10.459,https://starwars.fandom.com/wiki/Maoi_Madakor,Female,The Phantom Menace,18
+Kaadu,4,9.792,https://starwars.fandom.com/wiki/Kaadu,Unknown gender,The Phantom Menace,0
+2163,4,10.084,https://starwars.fandom.com/wiki/2163,Male,The Phantom Menace,16
+Ben Quadrinaros,3,6.5,https://starwars.fandom.com/wiki/Ben_Quadinaros,Male,The Phantom Menace,5
+Ki-Adi-Mundi,3,9.333,https://starwars.fandom.com/wiki/Ki-Adi-Mundi,Male,The Phantom Menace,21
+Sando aqua monster,3,7,https://starwars.fandom.com/wiki/Sando_aqua_monster,Unknown gender,The Phantom Menace,0
+Rabé,3,8.792,https://starwars.fandom.com/wiki/Rab%C3%A9,Female,The Phantom Menace,19
+Naboo Creatures,3,10.875,https://starwars.fandom.com/wiki/Naboo,Unknown gender,The Phantom Menace,0
+Gragra,3,4.999,https://starwars.fandom.com/wiki/Gragra,Female,The Phantom Menace,13
+Ody Mandrell,3,7.458,https://starwars.fandom.com/wiki/Ody_Mandrell,Male,The Phantom Menace,2
+Aks Moe,3,7.208,https://starwars.fandom.com/wiki/Aks_Moe,Male,The Phantom Menace,18
+Arven Wendik,3,9.167,https://starwars.fandom.com/wiki/Arven_Wendik,Male,The Phantom Menace,13
+Senators,3,7.625,https://starwars.fandom.com/wiki/Galactic_Senate,Unknown gender,The Phantom Menace,12
+Naboo Pilot,2,3.792,https://starwars.fandom.com/wiki/Naboo_Royal_Space_Fighter_Corps,Unknown gender,The Phantom Menace,2
+Mas Amedda,2,5.833,https://starwars.fandom.com/wiki/Mas_Amedda,Male,The Phantom Menace,4
+Tusken Raiders,2,4,https://starwars.fandom.com/wiki/Tusken_Raider,Unknown gender,The Phantom Menace,0
+Gungans,2,5.959,https://starwars.fandom.com/wiki/Gungan,Unknown gender,The Phantom Menace,0
+Dineé Ellberger,2,3.709,https://starwars.fandom.com/wiki/Dine%C3%A9_Ellberger,Female,The Phantom Menace,11
+Seek,2,5.542,https://starwars.fandom.com/wiki/Seek,Male,The Phantom Menace,16
+Jira,2,6.834,https://starwars.fandom.com/wiki/Jira,Female,The Phantom Menace,14
+Jawas,2,5.791,https://starwars.fandom.com/wiki/Jawa,Unknown gender,The Phantom Menace,1
+Bantha,2,5.541,https://starwars.fandom.com/wiki/Bantha,Unknown gender,The Phantom Menace,0
+Amee,2,5,https://starwars.fandom.com/wiki/Amee,Female,The Phantom Menace,10
+Battle Droid,2,4,https://starwars.fandom.com/wiki/B1-series_battle_droid,Male,The Phantom Menace,4
+Colo claw fish,2,4.291,https://starwars.fandom.com/wiki/Colo_claw_fish,Unknown gender,The Phantom Menace,0
+OWO-1,2,5.375,https://starwars.fandom.com/wiki/OWO-1,Male,The Phantom Menace,10
+Sith Probe Droid,2,4.042,https://starwars.fandom.com/wiki/DRK-1_Dark_Eye_probe_droid,Unknown gender,The Phantom Menace,0
+Opee sea killer,1,2.917,https://starwars.fandom.com/wiki/Opee_sea_killer,Unknown gender,The Phantom Menace,0
+Jerus Jannick,1,2.875,https://starwars.fandom.com/wiki/Jerus_Jannick,Male,The Phantom Menace,6
+Battle Droids,1,1.708,https://starwars.fandom.com/wiki/B1-series_battle_droid,Male,The Phantom Menace,0
+Pelikki,1,2.5,https://starwars.fandom.com/wiki/Pelikki,Unknown gender,The Phantom Menace,0
+Corporal Battle Droid,1,2.917,https://starwars.fandom.com/wiki/Unidentified_Security_Battle_Droid,Male,The Phantom Menace,2
+G8-R3,1,3,https://starwars.fandom.com/wiki/G8-R3,Unknown gender,The Phantom Menace,0
+7276,1,2.333,https://starwars.fandom.com/wiki/7276,Male,The Phantom Menace,2
+R2-R9,1,2.167,https://starwars.fandom.com/wiki/R2-R9,Unknown gender,The Phantom Menace,0
+Antidar Williams,1,1.792,https://starwars.fandom.com/wiki/Antidar_Williams,Male,The Phantom Menace,2
+Clegg Holdfast,1,2.75,https://starwars.fandom.com/wiki/Clegg_Holdfast,Male,The Phantom Menace,2
+Dewback,1,2.125,https://starwars.fandom.com/wiki/Dewback,Unknown gender,The Phantom Menace,0
+Pit Droids,1,2.083,https://starwars.fandom.com/wiki/DUM-series_pit_droid,Unknown gender,The Phantom Menace,0
+Podracing Crowd,1,4.25,https://starwars.fandom.com/wiki/Boonta_Eve_Classic,Unknown gender,The Phantom Menace,8
+Podracing Spectator,1,3.5,https://starwars.fandom.com/wiki/Boonta_Eve_Classic,Unknown gender,The Phantom Menace,1
+Mars Guo,1,2.917,https://starwars.fandom.com/wiki/Mars_Guo,Male,The Phantom Menace,1
+Niai Fieso,1,2.292,https://starwars.fandom.com/wiki/Niai_Fieso,Male,The Phantom Menace,0
+Nuna,1,2.875,https://starwars.fandom.com/wiki/Nuna,Unknown gender,The Phantom Menace,0
+Melee,1,3.083,https://starwars.fandom.com/wiki/Melee,Female,The Phantom Menace,5
+Mawhonic,1,3.708,https://starwars.fandom.com/wiki/Mawhonic,Male,The Phantom Menace,1
+Gorg,1,2.375,https://starwars.fandom.com/wiki/Gorg,Unknown gender,The Phantom Menace,0
+Weazel,1,1.833,https://starwars.fandom.com/wiki/Weazel,Male,The Phantom Menace,1
+Porro Dolphe,1,3,https://starwars.fandom.com/wiki/Porro_Dolphe,Male,The Phantom Menace,1
+Anakin,278,681.216,https://starwars.fandom.com/wiki/Anakin_Skywalker,Male,Attack of the Clones,1550
+Kenobi,242,598.872,https://starwars.fandom.com/wiki/Obi-Wan_Kenobi,Male,Attack of the Clones,1529
+Padmé,152,373.631,https://starwars.fandom.com/wiki/Padmé_Amidala,Female,Attack of the Clones,1014
+Yoda,86,266.913,https://starwars.fandom.com/wiki/Yoda,Male,Attack of the Clones,441
+Dooku,78,222.708,https://starwars.fandom.com/wiki/Dooku,Male,Attack of the Clones,567
+C-3PO,54,153.25,https://starwars.fandom.com/wiki/C-3PO,Male,Attack of the Clones,354
+Palpatine,48,138.792,https://starwars.fandom.com/wiki/Darth_Sidious,Male,Attack of the Clones,313
+Lama Su,44,129.291,https://starwars.fandom.com/wiki/Lama_Su,Male,Attack of the Clones,296
+Mace,38,108.917,https://starwars.fandom.com/wiki/Mace_Windu,Male,Attack of the Clones,287
+R2-D2,29,76.668,https://starwars.fandom.com/wiki/R2-D2,Male,Attack of the Clones,0
+Watto,26,78.209,https://starwars.fandom.com/wiki/Watto,Male,Attack of the Clones,142
+Dexter,25,75.75,https://starwars.fandom.com/wiki/Dexter_Jettster,Male,Attack of the Clones,148
+Jango,24,58.959,https://starwars.fandom.com/wiki/Jango_Fett,Male,Attack of the Clones,159
+Cliegg,22,73.792,https://starwars.fandom.com/wiki/Cliegg_Lars,Male,Attack of the Clones,163
+Jar Jar,18,59.961,https://starwars.fandom.com/wiki/Jar_Jar_Binks,Male,Attack of the Clones,97
+Taun We,16,39.75,https://starwars.fandom.com/wiki/Taun_We,Female,Attack of the Clones,75
+Typho,16,39.75,https://starwars.fandom.com/wiki/Gregar_Typho,Male,Attack of the Clones,108
+Shmi,15,34.707,https://starwars.fandom.com/wiki/Shmi_Skywalker_Lars,Female,Attack of the Clones,44
+R4-P17,14,33,https://starwars.fandom.com/wiki/R4-P17,Female,Attack of the Clones,0
+Reek,11,25.875,https://starwars.fandom.com/wiki/Reek,Unknown gender,Attack of the Clones,0
+Boba,10,20.499,https://starwars.fandom.com/wiki/Boba_Fett,Male,Attack of the Clones,29
+Nute,9,28.75,https://starwars.fandom.com/wiki/Nute_Gunray,Male,Attack of the Clones,69
+Poggle,9,30.583,https://starwars.fandom.com/wiki/Poggle_the_Lesser,Male,Attack of the Clones,68
+Jocasta Nu,9,23.875,https://starwars.fandom.com/wiki/Jocasta_Nu,Female,Attack of the Clones,58
+Geonosians,7,15.833,https://starwars.fandom.com/wiki/Geonosian,Unknown gender,Attack of the Clones,0
+Geonosian,7,14.667,https://starwars.fandom.com/wiki/Geonosian,Unknown gender,Attack of the Clones,1
+Nexu,7,16.416,https://starwars.fandom.com/wiki/Nexu,Unknown gender,Attack of the Clones,0
+Bibble,7,21.668,https://starwars.fandom.com/wiki/Sio_Bibble,Male,Attack of the Clones,50
+Bail,6,12.958,https://starwars.fandom.com/wiki/Bail_Prestor_Organa,Male,Attack of the Clones,45
+Jamillia,6,16.001,https://starwars.fandom.com/wiki/Jamillia,Female,Attack of the Clones,50
+Acklay,6,13.334,https://starwars.fandom.com/wiki/Acklay,Unknown gender,Attack of the Clones,0
+Zam,5,13.5,https://starwars.fandom.com/wiki/Zam_Wesell,Female,Attack of the Clones,29
+Massiff,5,10.916,https://starwars.fandom.com/wiki/Massiff,Unknown gender,Attack of the Clones,0
+Mas Amedda,5,15.749,https://starwars.fandom.com/wiki/Mas_Amedda,Male,Attack of the Clones,32
+Battle Droid,4,8.541,https://starwars.fandom.com/wiki/B1-series_battle_droid,Male,Attack of the Clones,12
+Dormé,4,10.667,https://starwars.fandom.com/wiki/Dormé,Female,Attack of the Clones,26
+Shaak,4,12.333,https://starwars.fandom.com/wiki/Shaak,Unknown gender,Attack of the Clones,0
+Owen,4,10.125,https://starwars.fandom.com/wiki/Owen_Lars,Male,Attack of the Clones,26
+Sleazebaggano,3,7.084,https://starwars.fandom.com/wiki/Elan_Sel'Sabagno,Male,Attack of the Clones,24
+Clone Trooper,3,8.416,https://starwars.fandom.com/wiki/Clone_trooper,Male,Attack of the Clones,15
+Wat Tambor,3,7.792,https://starwars.fandom.com/wiki/Wat_Tambor,Male,Attack of the Clones,9
+Cordé,3,6.791,https://starwars.fandom.com/wiki/Cordé,Female,Attack of the Clones,11
+Hermione,3,7.459,https://starwars.fandom.com/wiki/Hermione_Bagwa,Female,Attack of the Clones,18
+Dar Wac,2,4.083,https://starwars.fandom.com/wiki/Dar_Wac,Male,Attack of the Clones,11
+COO-2180,2,5.75,https://starwars.fandom.com/wiki/COO-2180,Unknown gender,Attack of the Clones,7
+Clone Pilot,2,6.292,https://starwars.fandom.com/wiki/Clone_trooper_pilot,Male,Attack of the Clones,7
+Senators,2,6.291,https://starwars.fandom.com/wiki/Galactic_Senate,Unknown gender,Attack of the Clones,3
+J. K. Burtola,2,6.583,https://starwars.fandom.com/wiki/J._K._Burtola,Male,Attack of the Clones,9
+Seboca,2,3.166,https://starwars.fandom.com/wiki/Seboca,Male,Attack of the Clones,5
+Tusken Raider,2,2.625,https://starwars.fandom.com/wiki/Tusken_Raider,Male,Attack of the Clones,0
+Clone Captain,2,4.209,https://starwars.fandom.com/wiki/Unidentified_Clone_Captain_(Geonosis),Male,Attack of the Clones,8
+CRC-09/571,2,5.667,https://starwars.fandom.com/wiki/CRC-09/571,Male,Attack of the Clones,14
+Ask Aak,2,5.708,https://starwars.fandom.com/wiki/Ask_Aak,Male,Attack of the Clones,10
+RIC-920,2,4,https://starwars.fandom.com/wiki/RIC-920,Unknown gender,Attack of the Clones,6
+Orray,2,2.833,https://starwars.fandom.com/wiki/Orray,Unknown gender,Attack of the Clones,0
+FA-4 pilot,1,2.333,https://starwars.fandom.com/wiki/FA-4_pilot_droid,Unknown gender,Attack of the Clones,0
+CT-411,1,3.833,https://starwars.fandom.com/wiki/CT-411,Male,Attack of the Clones,11
+Bar patron,1,3.583,https://starwars.fandom.com/wiki/Outlander_Club,Unknown gender,Attack of the Clones,6
+Ki-Adi-Mundi,1,3.875,https://starwars.fandom.com/wiki/Ki-Adi-Mundi,Male,Attack of the Clones,8
+Gorothin Vagger,1,2.833,https://starwars.fandom.com/wiki/Gorothin_Vagger,Male,Attack of the Clones,0
+Qui-Gon,1,4.292,https://starwars.fandom.com/wiki/Qui-Gon_Jinn,Male,Attack of the Clones,3
+Woman Jedi,1,1.208,https://starwars.fandom.com/wiki/Jedi,Female,Attack of the Clones,1
+Magaloof,1,2.875,https://starwars.fandom.com/wiki/Magaloof,Male,Attack of the Clones,2
+San Hill,1,3.833,https://starwars.fandom.com/wiki/San_Hill,Male,Attack of the Clones,7
+ASN-121,1,0.958,https://starwars.fandom.com/wiki/ASN-121,Unknown gender,Attack of the Clones,0
+Shu Mai,1,3.875,https://starwars.fandom.com/wiki/Shu_Mai,Female,Attack of the Clones,9
+Younglings,1,2.833,https://starwars.fandom.com/wiki/Jedi_Initiate,Unknown gender,Attack of the Clones,3
+Beru,1,3,https://starwars.fandom.com/wiki/Beru_Whitesun_Lars,Female,Attack of the Clones,1
+Theomet Danlé,1,2.833,https://starwars.fandom.com/wiki/Theomet_Danlé,Male,Attack of the Clones,8
+Rune,1,3.25,https://starwars.fandom.com/wiki/Rune_Haako,Male,Attack of the Clones,8
+Palpatine,266,865.832,https://starwars.fandom.com/wiki/Darth_Sidious,Male,Revenge of the Sith,1454
+Kenobi,238,652.132,https://starwars.fandom.com/wiki/Obi-Wan_Kenobi,Male,Revenge of the Sith,1495
+Anakin,231,641.881,https://starwars.fandom.com/wiki/Anakin_Skywalker,Male,Revenge of the Sith,1325
+Padmé,115,309.835,https://starwars.fandom.com/wiki/Padmé_Amidala,Female,Revenge of the Sith,593
+Vader,98,268.659,https://starwars.fandom.com/wiki/Anakin_Skywalker,Male,Revenge of the Sith,431
+Yoda,77,264,https://starwars.fandom.com/wiki/Yoda,Male,Revenge of the Sith,477
+Grievous,70,217.043,https://starwars.fandom.com/wiki/Grievous,Male,Revenge of the Sith,197
+R2-D2,61,151.503,https://starwars.fandom.com/wiki/R2-D2,Male,Revenge of the Sith,0
+Mace,55,156.501,https://starwars.fandom.com/wiki/Mace_Windu,Male,Revenge of the Sith,367
+Bail,33,79.208,https://starwars.fandom.com/wiki/Bail_Prestor_Organa,Male,Revenge of the Sith,176
+C-3PO,20,54.832,https://starwars.fandom.com/wiki/C-3PO,Male,Revenge of the Sith,116
+Clone Trooper,16,31.876,https://starwars.fandom.com/wiki/Clone_trooper,Male,Revenge of the Sith,58
+Boga,16,33.418,https://starwars.fandom.com/wiki/Boga,Female,Revenge of the Sith,0
+Cody,14,36.167,https://starwars.fandom.com/wiki/CC-2224,Male,Revenge of the Sith,77
+Chewie,12,27.792,https://starwars.fandom.com/wiki/Chewbacca,Male,Revenge of the Sith,0
+Ki-Adi-Mundi,10,29.708,https://starwars.fandom.com/wiki/Ki-Adi-Mundi,Male,Revenge of the Sith,62
+Tarfful,10,23.833,https://starwars.fandom.com/wiki/Tarfful,Male,Revenge of the Sith,0
+Pilot Battle Droid,9,25.041,https://starwars.fandom.com/wiki/OOM_pilot_battle_droid,Male,Revenge of the Sith,27
+Super Battle Droid,9,21.668,https://starwars.fandom.com/wiki/B2-series_super_battle_droid,Male,Revenge of the Sith,29
+Battle Droid,9,18.125,https://starwars.fandom.com/wiki/B1-series_battle_droid,Male,Revenge of the Sith,14
+Tion Medon,8,28.584,https://starwars.fandom.com/wiki/Tion_Medon,Male,Revenge of the Sith,41
+Dooku,8,24.541,https://starwars.fandom.com/wiki/Dooku,Male,Revenge of the Sith,49
+Buzz Droid,7,21.959,https://starwars.fandom.com/wiki/Pistoeka_sabotage_droid,Unknown gender,Revenge of the Sith,0
+Nute,7,25.042,https://starwars.fandom.com/wiki/Nute_Gunray,Male,Revenge of the Sith,52
+GH-7 medical assistance droid,6,15.916,https://starwars.fandom.com/wiki/GH-7_series_medical_assistance_droid,Unknown gender,Revenge of the Sith,39
+Security Battle Droid,6,11.25,https://starwars.fandom.com/wiki/OOM-series_security_droid,Male,Revenge of the Sith,16
+Luke,5,13.917,https://starwars.fandom.com/wiki/Luke_Skywalker,Male,Revenge of the Sith,0
+Mas Amedda,5,18.917,https://starwars.fandom.com/wiki/Mas_Amedda,Male,Revenge of the Sith,25
+Lushros Dofine,4,12.167,https://starwars.fandom.com/wiki/Lushros_Dofine,Male,Revenge of the Sith,20
+Dactillion,4,8.084,https://starwars.fandom.com/wiki/Dactillion,Unknown gender,Revenge of the Sith,0
+Chroon-Tan B-Machine,4,13.001,https://starwars.fandom.com/wiki/Chroon-Tan_B-Machine,Female,Revenge of the Sith,7
+CC-1119,4,11.501,https://starwars.fandom.com/wiki/CC-1119,Male,Revenge of the Sith,23
+R4-P17,3,8.167,https://starwars.fandom.com/wiki/R4-P17,Female,Revenge of the Sith,0
+Gree,3,10.791,https://starwars.fandom.com/wiki/CC-1004,Male,Revenge of the Sith,13
+Clone Pilot,3,7.001,https://starwars.fandom.com/wiki/Clone_trooper_pilot,Male,Revenge of the Sith,14
+CC-4477,2,4.541,https://starwars.fandom.com/wiki/CC-4477,Male,Revenge of the Sith,12
+MagnaGuard,2,5.833,https://starwars.fandom.com/wiki/IG-100_MagnaGuard,Male,Revenge of the Sith,1
+DLC-13 Mining Droid,2,4.333,https://starwars.fandom.com/wiki/DLC-13_mining_droid,Unknown gender,Revenge of the Sith,0
+Wookiee,2,9.666,https://starwars.fandom.com/wiki/Wookiee,Unknown gender,Revenge of the Sith,0
+Imperial Shock Trooper,2,4.75,https://starwars.fandom.com/wiki/Imperial_shock_trooper,Male,Revenge of the Sith,8
+Jeremoch Colton,2,5.041,https://starwars.fandom.com/wiki/Jeremoch_Colton,Male,Revenge of the Sith,11
+Eopie,2,3.916,https://starwars.fandom.com/wiki/Eopie,Unknown gender,Revenge of the Sith,0
+Sors Bandeam,2,4.333,https://starwars.fandom.com/wiki/Sors_Bandeam,Male,Revenge of the Sith,14
+CC-2237,2,4.417,https://starwars.fandom.com/wiki/CC-2237,Male,Revenge of the Sith,9
+Advanced Recon Force Scout Trooper,2,4.875,https://starwars.fandom.com/wiki/Advanced_Recon_Force_Scout_Trooper,Male,Revenge of the Sith,11
+Typho,2,3.833,https://starwars.fandom.com/wiki/Gregar_Typho,Male,Revenge of the Sith,14
+Raymus Antilles,1,2.125,https://starwars.fandom.com/wiki/Raymus_Antilles,Male,Revenge of the Sith,3
+Pilot Battle Droids,1,2.208,https://starwars.fandom.com/wiki/OOM_pilot_battle_droid,Male,Revenge of the Sith,2
+Vulture Droid,1,3.208,"https://starwars.fandom.com/wiki/Variable_Geometry_Self-Propelled_Battle_Droid,_Mark_I",Unknown gender,Revenge of the Sith,0
+Fire Team Three Pilot,1,2.708,https://starwars.fandom.com/wiki/Fire_Team_Three,Male,Revenge of the Sith,4
+Buzzard,1,1.917,https://starwars.fandom.com/wiki/Saleucami_buzzard,Unknown gender,Revenge of the Sith,0
+Saesee Tiin,1,1.958,https://starwars.fandom.com/wiki/Saesee_Tiin,Male,Revenge of the Sith,0
+Droideka,1,2.167,https://starwars.fandom.com/wiki/Droideka,Unknown gender,Revenge of the Sith,0
+Kit Fisto,1,1.292,https://starwars.fandom.com/wiki/Kit_Fisto,Male,Revenge of the Sith,0
+CT-0000/1010,1,2.542,https://starwars.fandom.com/wiki/CT-0000/1010,Male,Revenge of the Sith,7
+Leia,1,3.042,https://starwars.fandom.com/wiki/Leia_Skywalker_Organa_Solo,Female,Revenge of the Sith,0
+R4-G9,1,1.75,https://starwars.fandom.com/wiki/R4-G9,Female,Revenge of the Sith,0
+Lampay Fay,1,4.083,https://starwars.fandom.com/wiki/Lampay_Fay,Male,Revenge of the Sith,5
+Agen Kolar,1,1.958,https://starwars.fandom.com/wiki/Agen_Kolar,Male,Revenge of the Sith,0
+CT-55/11-9009,1,1.625,https://starwars.fandom.com/wiki/CT-55/11-9009,Male,Revenge of the Sith,6
+Tusken Raider,1,2.542,https://starwars.fandom.com/wiki/Tusken_Raider,Unknown gender,Revenge of the Sith,0
+Mouse Droids,1,3.625,https://starwars.fandom.com/wiki/MSE_series,Unknown gender,Revenge of the Sith,0
+Vulture Droids,1,3.167,"https://starwars.fandom.com/wiki/Variable_Geometry_Self-Propelled_Battle_Droid,_Mark_I",Unknown gender,Revenge of the Sith,0
+Jar Jar,1,1.917,https://starwars.fandom.com/wiki/Jar_Jar_Binks,Male,Revenge of the Sith,2
+Rune,1,3.833,https://starwars.fandom.com/wiki/Rune_Haako,Male,Revenge of the Sith,2
+Crab Droid,1,1.792,https://starwars.fandom.com/wiki/LM-432_crab_droid,Unknown gender,Revenge of the Sith,0
+Merumeru,1,3.25,https://starwars.fandom.com/wiki/Merumeru,Male,Revenge of the Sith,0
+Poggle,1,3.208,https://starwars.fandom.com/wiki/Poggle_the_Lesser,Male,Revenge of the Sith,0
+Wookiees,1,3.25,https://starwars.fandom.com/wiki/Wookiee,Unknown gender,Revenge of the Sith,0
+Felucia bird,1,1.917,https://starwars.fandom.com/wiki/Felucia_bird,Unknown gender,Revenge of the Sith,0
+Utai,1,3.25,https://starwars.fandom.com/wiki/Utai,Unknown gender,Revenge of the Sith,0
+Probe Droid,1,1.917,https://starwars.fandom.com/wiki/Probe_droid,Unknown gender,Revenge of the Sith,0
+Orn Free Taa,1,1.917,https://starwars.fandom.com/wiki/Orn_Free_Taa,Male,Revenge of the Sith,2
+Clone Paratrooper,1,1.958,https://starwars.fandom.com/wiki/Clone_paratrooper,Male,Revenge of the Sith,8
+Luke,287,762.33,https://starwars.fandom.com/wiki/Luke_Skywalker,Male,A New Hope,2048
+Han,206,561.711,https://starwars.fandom.com/wiki/Han_Solo,Male,A New Hope,1644
+C-3PO,179,506.201,https://starwars.fandom.com/wiki/C-3PO,Male,A New Hope,1442
+Kenobi,137,402.456,https://starwars.fandom.com/wiki/Obi-Wan_Kenobi,Male,A New Hope,1011
+R2-D2,86,214.904,https://starwars.fandom.com/wiki/R2-D2,Male,A New Hope,0
+Leia,84,233.336,https://starwars.fandom.com/wiki/Leia_Skywalker_Organa_Solo,Female,A New Hope,623
+Vader,56,180.791,https://starwars.fandom.com/wiki/Anakin_Skywalker,Male,A New Hope,479
+Tarkin,50,161.708,https://starwars.fandom.com/wiki/Wilhuff_Tarkin,Male,A New Hope,410
+Owen,35,109.167,https://starwars.fandom.com/wiki/Owen_Lars,Male,A New Hope,318
+Garven Dreis,35,94.668,https://starwars.fandom.com/wiki/Garven_Dreis,Male,A New Hope,205
+Chewie,28,58.747,https://starwars.fandom.com/wiki/Chewbacca,Male,A New Hope,0
+Stormtrooper,26,66.499,https://starwars.fandom.com/wiki/Stormtrooper,Male,A New Hope,151
+Dodonna,20,67.917,https://starwars.fandom.com/wiki/Jan_Dodonna,Male,A New Hope,182
+Biggs,15,37.331,https://starwars.fandom.com/wiki/Biggs_Darklighter,Male,A New Hope,83
+Vander,13,35.375,https://starwars.fandom.com/wiki/Jon_Vander,Male,A New Hope,92
+Wedge,13,35.251,https://starwars.fandom.com/wiki/Wedge_Antilles,Male,A New Hope,81
+Motti,13,36.876,https://starwars.fandom.com/wiki/Conan_Antonio_Motti,Male,A New Hope,106
+Imperial Announcer,12,30.831,none,Male,A New Hope,60
+Greedo,11,33.585,https://starwars.fandom.com/wiki/Greedo,Male,A New Hope,101
+Beru,9,29.666,https://starwars.fandom.com/wiki/Beru_Whitesun_Lars,Female,A New Hope,73
+Tagge,8,25.541,https://starwars.fandom.com/wiki/Cassio_Tagge,Male,A New Hope,76
+Edmos Khurgee,7,16.542,https://starwars.fandom.com/wiki/Edmos_Khurgee,Male,A New Hope,64
+Death Star Intercom,7,22.123,none,Unknown gender,A New Hope,52
+Theron Nett,7,18.584,https://starwars.fandom.com/wiki/Theron_Nett,Male,A New Hope,53
+Rebel Announcer,6,18.915,none,Male,A New Hope,36
+Davish Krail,6,16.208,https://starwars.fandom.com/wiki/Davish_Krail,Male,A New Hope,39
+Wanten,6,16.417,https://starwars.fandom.com/wiki/Wanten,Male,A New Hope,36
+Massai Intercom,5,12.999,none,Unknown gender,A New Hope,35
+Porkins,5,10.583,https://starwars.fandom.com/wiki/Jek_Tono_Porkins,Male,A New Hope,23
+Cornelius Evazan,4,14.041,https://starwars.fandom.com/wiki/Cornelius_Evazan,Male,A New Hope,27
+Dianoga,4,13.833,https://starwars.fandom.com/wiki/Omi,Female,A New Hope,0
+KE-829,4,9.249,https://starwars.fandom.com/wiki/KE-829,Male,A New Hope,28
+Cass,4,11,https://starwars.fandom.com/wiki/Siward_Cass,Male,A New Hope,36
+Daine Jir,4,11.376,https://starwars.fandom.com/wiki/Daine_Jir,Male,A New Hope,29
+Imperial Officer,4,13.751,https://starwars.fandom.com/wiki/Imperial_officer,Male,A New Hope,38
+Wuher,3,8.167,https://starwars.fandom.com/wiki/Wuher,Male,A New Hope,23
+Jawa,3,5.874,https://starwars.fandom.com/wiki/Jawa,Unknown gender,A New Hope,1
+Praji,3,8.458,https://starwars.fandom.com/wiki/Praji,Male,A New Hope,30
+Treidum,3,8,https://starwars.fandom.com/wiki/Treidum,Male,A New Hope,24
+Imperial Docking Bay Control,3,7.709,none,Male,A New Hope,26
+Toos,3,7.666,https://starwars.fandom.com/wiki/Toos,Male,A New Hope,14
+Tanbris,2,3.708,https://starwars.fandom.com/wiki/Tanbris,Male,A New Hope,15
+Tusken Raider,2,4.416,https://starwars.fandom.com/wiki/Tusken_Raider,Male,A New Hope,0
+Shann Childsen,2,6.625,https://starwars.fandom.com/wiki/Shann_Childsen,Male,A New Hope,14
+Raymus Antilles,2,9.084,https://starwars.fandom.com/wiki/Raymus_Antilles,Male,A New Hope,14
+Dex Tiree,2,4.834,https://starwars.fandom.com/wiki/Dex_Tiree,Male,A New Hope,9
+Moradmin Bast,2,4.584,https://starwars.fandom.com/wiki/Moradmin_Bast,Male,A New Hope,17
+Rebel Controller,2,3.917,none,Male,A New Hope,12
+Imperial Pilot,2,5.125,https://starwars.fandom.com/wiki/Imperial_Starfighter_Pilot,Male,A New Hope,4
+Bolvan,2,4.917,https://starwars.fandom.com/wiki/Bolvan,Male,A New Hope,11
+Mouse Droid,2,4.916,https://starwars.fandom.com/wiki/MSE-6_series_repair_droid,Unknown gender,A New Hope,0
+Nozzo Naytaan,2,4.083,https://starwars.fandom.com/wiki/Nozzo_Naytaan,Male,A New Hope,7
+Garindan,2,4.041,https://starwars.fandom.com/wiki/Garindan,Male,A New Hope,0
+Del Goren,2,5.542,https://starwars.fandom.com/wiki/Del_Goren,Male,A New Hope,15
+Ralo Surrel,1,2.333,https://starwars.fandom.com/wiki/Ralo_Surrel,Male,A New Hope,4
+Ponda Baba,1,1.958,https://starwars.fandom.com/wiki/Ponda_Baba,Male,A New Hope,4
+Willard,1,3.167,https://starwars.fandom.com/wiki/Vanden_Willard,Male,A New Hope,11
+Tarvyn Lareka,1,3.083,https://starwars.fandom.com/wiki/Tarvyn_Lareka,Male,A New Hope,11
+Hija,1,2.042,https://starwars.fandom.com/wiki/Hija,Male,A New Hope,4
+Takbright,1,3.042,https://starwars.fandom.com/wiki/Col_Takbright,Male,A New Hope,6
+IT-O Interrogator,1,2.958,https://starwars.fandom.com/wiki/IT-O_Interrogation_Unit,Unknown gender,A New Hope,0
+A'Koba,1,3.958,https://starwars.fandom.com/wiki/A%27Koba,Male,A New Hope,0
+Mod Terrik,1,3.958,https://starwars.fandom.com/wiki/Mod_Terrik,Male,A New Hope,12
+Rebel Crew Chief,1,3.292,https://starwars.fandom.com/wiki/Rebel_Crew_Chief,Male,A New Hope,16
+TK-9091,1,1.958,https://starwars.fandom.com/wiki/TK-9091,Male,A New Hope,5
+Davin Felth,1,1.917,https://starwars.fandom.com/wiki/Davin_Felth,Male,A New Hope,3
+Jawas,1,1.875,https://starwars.fandom.com/wiki/Jawa,Unknown gender,A New Hope,0
+Red Seven,1,2.083,https://starwars.fandom.com/wiki/Red_Seven,Male,A New Hope,4
+3B6-RA-7,1,1.958,https://starwars.fandom.com/wiki/3B6-RA-7,Male,A New Hope,0
+John Branon,1,1.542,https://starwars.fandom.com/wiki/John_D._Branon,Male,A New Hope,2
+GNK Droid,1,2.458,https://starwars.fandom.com/wiki/GNK-series_power_droid,Unknown gender,A New Hope,2
+Rebel Technician,1,3.333,https://starwars.fandom.com/wiki/Rebel_technician,Male,A New Hope,8
+Han,235,679.413,https://starwars.fandom.com/wiki/Han_Solo,Male,The Empire Strikes Back,1559
+Luke,178,496.877,https://starwars.fandom.com/wiki/Luke_Skywalker,Male,The Empire Strikes Back,1015
+C-3PO,147,422.791,https://starwars.fandom.com/wiki/C-3PO,Male,The Empire Strikes Back,1121
+Leia,137,382.463,https://starwars.fandom.com/wiki/Leia_Skywalker_Organa_Solo,Female,The Empire Strikes Back,761
+Yoda,136,437.702,https://starwars.fandom.com/wiki/Yoda,Male,The Empire Strikes Back,775
+Vader,96,315.458,https://starwars.fandom.com/wiki/Anakin_Skywalker,Male,The Empire Strikes Back,644
+Lando,90,258.001,https://starwars.fandom.com/wiki/Landonis_Balthazar_Calrissian,Male,The Empire Strikes Back,598
+R2-D2,63,172.537,https://starwars.fandom.com/wiki/R2-D2,Male,The Empire Strikes Back,0
+Chewie,47,118.248,https://starwars.fandom.com/wiki/Chewbacca,Male,The Empire Strikes Back,0
+Piett,29,77.709,https://starwars.fandom.com/wiki/Firmus_Piett,Male,The Empire Strikes Back,182
+Kenobi,22,66.418,https://starwars.fandom.com/wiki/Obi-Wan_Kenobi,Male,The Empire Strikes Back,142
+Rieekan,16,45.667,https://starwars.fandom.com/wiki/Carlist_Rieekan,Male,The Empire Strikes Back,123
+Veers,11,38.791,https://starwars.fandom.com/wiki/Maximilian_Veers,Male,The Empire Strikes Back,87
+Needa,9,25.126,https://starwars.fandom.com/wiki/Lorth_Needa,Male,The Empire Strikes Back,78
+Palpatine,8,26.541,https://starwars.fandom.com/wiki/Darth_Sidious,Male,The Empire Strikes Back,46
+Tigran Jamiro,8,18.209,https://starwars.fandom.com/wiki/Tigran_Jamiro,Male,The Empire Strikes Back,61
+Wedge,8,17.666,https://starwars.fandom.com/wiki/Wedge_Antilles,Male,The Empire Strikes Back,29
+Zev,8,34.917,https://starwars.fandom.com/wiki/Zev_Senesca,Male,The Empire Strikes Back,67
+Ozzel,7,20.418,https://starwars.fandom.com/wiki/Kendal_Ozzel,Male,The Empire Strikes Back,55
+Rebel Announcer,4,11.166,none,Male,The Empire Strikes Back,28
+Mynock,4,9.709,https://starwars.fandom.com/wiki/Mynock,Unknown gender,The Empire Strikes Back,0
+Boba Fett,4,12.374,https://starwars.fandom.com/wiki/Boba_Fett,Male,The Empire Strikes Back,27
+Wampa,4,7.416,https://starwars.fandom.com/wiki/Unidentified_wampa,Male,The Empire Strikes Back,0
+Dak,4,14.542,https://starwars.fandom.com/wiki/Dak_Ralter,Male,The Empire Strikes Back,41
+Exogorth,4,10.541,https://starwars.fandom.com/wiki/Sy-O,Unknown gender,The Empire Strikes Back,0
+Probe Droid,3,8.334,https://starwars.fandom.com/wiki/Viper_probe_droid,Unknown gender,The Empire Strikes Back,0
+Janson,3,5.875,https://starwars.fandom.com/wiki/Wes_Janson,Male,The Empire Strikes Back,10
+Bren Derlin,3,9.625,https://starwars.fandom.com/wiki/Bren_Derlin,Male,The Empire Strikes Back,25
+Romas Navander,3,11.042,https://starwars.fandom.com/wiki/Romas_Navander,Male,The Empire Strikes Back,24
+Wyron Serper,3,8.041,https://starwars.fandom.com/wiki/Wyron_Serper,Male,The Empire Strikes Back,10
+Cal Alder,3,6.874,https://starwars.fandom.com/wiki/Cal_Alder,Male,The Empire Strikes Back,17
+Bespin Cloud Car Pilot,2,7.459,none,Male,The Empire Strikes Back,15
+Bewil,2,4.75,https://starwars.fandom.com/wiki/Bewil,Male,The Empire Strikes Back,11
+Shawn Valdez,2,5.75,https://starwars.fandom.com/wiki/Shawn_Valdez,Male,The Empire Strikes Back,26
+Venka,2,8.417,https://starwars.fandom.com/wiki/Venka,Male,The Empire Strikes Back,13
+Toryn Farr,2,3.416,https://starwars.fandom.com/wiki/Toryn_Farr,Female,The Empire Strikes Back,5
+Rebel Officer,2,4.75,none,Male,The Empire Strikes Back,8
+Nemet,2,4.292,https://starwars.fandom.com/wiki/Nemet,Male,The Empire Strikes Back,17
+Han's Tauntaun,2,6.416,https://starwars.fandom.com/wiki/Tauntaun,Unknown gender,The Empire Strikes Back,0
+2-1B,2,5.25,https://starwars.fandom.com/wiki/2-1B,Male,The Empire Strikes Back,14
+Luke's Tauntaun,1,4.333,https://starwars.fandom.com/wiki/Tauntaun,Female,The Empire Strikes Back,0
+Imperial Officer,1,2.958,none,Male,The Empire Strikes Back,3
+Bossk,1,2.583,https://starwars.fandom.com/wiki/Bossk,Male,The Empire Strikes Back,0
+Ledick Firest,1,1.958,https://starwars.fandom.com/wiki/Ledick_Firest,Male,The Empire Strikes Back,2
+Rebel Pilots,1,2,none,Male,The Empire Strikes Back,1
+Ugnaughts,1,4.458,https://starwars.fandom.com/wiki/Ugnaught,Unknown gender,The Empire Strikes Back,0
+Avenger Imperial Officer,1,3.125,https://starwars.fandom.com/wiki/Unidentified_Imperial_officer_(Avenger),Male,The Empire Strikes Back,3
+Lennox,1,4.125,https://starwars.fandom.com/wiki/Lennox,Male,The Empire Strikes Back,7
+AT-AT pilot,1,3,https://starwars.fandom.com/wiki/AT-AT_pilot,Male,The Empire Strikes Back,1
+M'Kae,1,2.75,https://starwars.fandom.com/wiki/M%27Kae,Male,The Empire Strikes Back,9
+Trey Callum,1,2.667,https://starwars.fandom.com/wiki/Trey_Callum,Male,The Empire Strikes Back,7
+E-3PO,1,2.167,https://starwars.fandom.com/wiki/E-3PO_(Bespin),Unknown gender,The Empire Strikes Back,3
+R2 Astrodroid,1,1.708,https://starwars.fandom.com/wiki/R2_series_astromech_droid,Unknown gender,The Empire Strikes Back,0
+Bespin Man,1,2.375,none,Male,The Empire Strikes Back,3
+Cabbel,1,4.125,https://starwars.fandom.com/wiki/Cabbel,Male,The Empire Strikes Back,8
+Hobbie,1,2,https://starwars.fandom.com/wiki/Derek_Klivian,Male,The Empire Strikes Back,6
+Cecius,1,2.458,https://starwars.fandom.com/wiki/Cecius,Male,The Empire Strikes Back,2
+C-3PO,177,488.124,https://starwars.fandom.com/wiki/C-3PO,Male,Return of the Jedi,1034
+Han,176,447.837,https://starwars.fandom.com/wiki/Han_Solo,Male,Return of the Jedi,944
+Luke,159,421.411,https://starwars.fandom.com/wiki/Luke_Skywalker,Male,Return of the Jedi,933
+Palpatine,101,345.291,https://starwars.fandom.com/wiki/Darth_Sidious,Male,Return of the Jedi,622
+Leia,85,230.413,https://starwars.fandom.com/wiki/Leia_Skywalker_Organa_Solo,Female,Return of the Jedi,442
+Vader,63,201.621,https://starwars.fandom.com/wiki/Anakin_Skywalker,Male,Return of the Jedi,390
+Jabba,57,191.745,https://starwars.fandom.com/wiki/Jabba_Desilijic_Tiure,Male,Return of the Jedi,213
+Yoda,52,142.417,https://starwars.fandom.com/wiki/Yoda,Male,Return of the Jedi,236
+R2-D2,51,144.412,https://starwars.fandom.com/wiki/R2-D2,Male,Return of the Jedi,0
+Chewie,51,115.873,https://starwars.fandom.com/wiki/Chewbacca,Male,Return of the Jedi,0
+Lando,48,129.792,https://starwars.fandom.com/wiki/Landonis_Balthazar_Calrissian,Male,Return of the Jedi,354
+Wicket,43,79.498,https://starwars.fandom.com/wiki/Wicket_Wystri_Warrick,Male,Return of the Jedi,108
+Kenobi,29,93.834,https://starwars.fandom.com/wiki/Obi-Wan_Kenobi,Male,Return of the Jedi,239
+Ackbar,26,87.125,https://starwars.fandom.com/wiki/Gial_Ackbar,Male,Return of the Jedi,209
+Bib,23,69.375,https://starwars.fandom.com/wiki/Bib_Fortuna,Male,Return of the Jedi,81
+Ewok,22,38.039,https://starwars.fandom.com/wiki/Ewok,Unknown gender,Return of the Jedi,90
+EV-9D9,14,44.958,https://starwars.fandom.com/wiki/EV-9D9,Female,Return of the Jedi,95
+Anakin,13,39.249,https://starwars.fandom.com/wiki/Anakin_Skywalker,Male,Return of the Jedi,48
+Wedge,12,30.665,https://starwars.fandom.com/wiki/Wedge_Antilles,Male,Return of the Jedi,69
+Ewoks,11,28.541,https://starwars.fandom.com/wiki/Ewok,Unknown gender,Return of the Jedi,16
+Mon Mothma,11,38.292,https://starwars.fandom.com/wiki/Mon_Mothma,Female,Return of the Jedi,102
+Logray,11,21.625,https://starwars.fandom.com/wiki/Logray,Male,Return of the Jedi,60
+Piett,9,25.959,https://starwars.fandom.com/wiki/Firmus_Piett,Male,Return of the Jedi,73
+Stormtrooper,8,16.375,https://starwars.fandom.com/wiki/Stormtrooper,Male,Return of the Jedi,18
+Salacious Crumb,8,22.707,https://starwars.fandom.com/wiki/Salacious_B._Crumb,Male,Return of the Jedi,6
+Gamorrean,8,24.291,https://starwars.fandom.com/wiki/Gamorrean,Unknown gender,Return of the Jedi,0
+Nien Nunb,7,17.457,https://starwars.fandom.com/wiki/Nien_Nunb,Male,Return of the Jedi,39
+TT-8L Gatekeeper,7,14.249,https://starwars.fandom.com/wiki/TT-8L/Y7_gatekeeper_droid,Unknown gender,Return of the Jedi,0
+Rancor,7,17.207,https://starwars.fandom.com/wiki/Pateesa,Male,Return of the Jedi,0
+Teebo,7,11.167,https://starwars.fandom.com/wiki/Teebo,Male,Return of the Jedi,19
+Jerjerrod,7,21.832,https://starwars.fandom.com/wiki/Tiaan_Jerjerrod,Male,Return of the Jedi,55
+Paploo,6,7.583,https://starwars.fandom.com/wiki/Paploo,Male,Return of the Jedi,19
+Igar,5,11.334,https://starwars.fandom.com/wiki/Igar,Male,Return of the Jedi,41
+Jhoff,5,13.125,https://starwars.fandom.com/wiki/Jhoff,Male,Return of the Jedi,31
+Jad Bean,4,10.708,https://starwars.fandom.com/wiki/Jad_Bean,Male,Return of the Jedi,23
+GNK power droid,4,8.875,https://starwars.fandom.com/wiki/GNK-series_power_droid,Unknown gender,Return of the Jedi,3
+Widdle,4,9.209,https://starwars.fandom.com/wiki/Widdle_Warrick,Male,Return of the Jedi,16
+Madine,4,14.375,https://starwars.fandom.com/wiki/Crix_Madine,Male,Return of the Jedi,38
+Oberk,3,8.542,https://starwars.fandom.com/wiki/Oberk,Male,Return of the Jedi,16
+Romba,3,5.917,https://starwars.fandom.com/wiki/Romba,Male,Return of the Jedi,8
+Scout Stormtrooper,3,6.75,https://starwars.fandom.com/wiki/Scout_trooper,Male,Return of the Jedi,8
+Yorr,3,9.083,https://starwars.fandom.com/wiki/Yorr,Male,Return of the Jedi,20
+Oola,3,3.833,https://starwars.fandom.com/wiki/Oola,Female,Return of the Jedi,4
+Hewex,2,4.125,https://starwars.fandom.com/wiki/Hewex,Male,Return of the Jedi,9
+Arvel Crynyd,2,5.25,https://starwars.fandom.com/wiki/Arvel_Crynyd,Male,Return of the Jedi,11
+Giran,2,5.916,https://starwars.fandom.com/wiki/Giran,Male,Return of the Jedi,9
+Gherant,2,4.958,https://starwars.fandom.com/wiki/Gherant,Male,Return of the Jedi,7
+Renz,2,4,https://starwars.fandom.com/wiki/Renz,Male,Return of the Jedi,4
+Merrejk,1,2.917,https://starwars.fandom.com/wiki/Merrejk,Male,Return of the Jedi,6
+Buboicullaar,1,2.75,https://starwars.fandom.com/wiki/Buboicullaar,Male,Return of the Jedi,0
+Executor Imperial Officer,1,2.125,https://starwars.fandom.com/wiki/Unidentified_Imperial_officer_(Executor),Male,Return of the Jedi,7
+Nanta,1,1.958,https://starwars.fandom.com/wiki/Nanta,Unknown gender,Return of the Jedi,0
+2-1B-series medical droid,1,1.958,https://starwars.fandom.com/wiki/2-1B-series_medical_droid,Unknown gender,Return of the Jedi,0
+Gureni Telsij,1,1.958,https://starwars.fandom.com/wiki/Gureni_Telsij,Male,Return of the Jedi,5
+Rebel Navigator,1,1.75,https://starwars.fandom.com/wiki/Unidentified_Rebel_navigator,Male,Return of the Jedi,2
+Sila Kott,1,2.958,https://starwars.fandom.com/wiki/Sila_Kott,Female,Return of the Jedi,2
+Avarik,1,1.792,https://starwars.fandom.com/wiki/Avarik,Male,Return of the Jedi,4
+Sy Snootles,1,4.458,https://starwars.fandom.com/wiki/Sy_Snootles,Female,Return of the Jedi,0
+Sand Skitter,1,1.958,https://starwars.fandom.com/wiki/Sand_skitter,Unknown gender,Return of the Jedi,0
+Verrack,1,2.75,https://starwars.fandom.com/wiki/Verrack,Male,Return of the Jedi,8
+Imperial Officer,1,1.958,https://starwars.fandom.com/wiki/Imperial_officer,Male,Return of the Jedi,5
+Malakili,1,2.958,https://starwars.fandom.com/wiki/Malakili,Male,Return of the Jedi,0
+Blanaid,1,3.125,https://starwars.fandom.com/wiki/Blanaid,Male,Return of the Jedi,1
+Doallyn,1,1.958,https://starwars.fandom.com/wiki/Doallyn,Male,Return of the Jedi,2
+Horton Salm,1,3.292,https://starwars.fandom.com/wiki/Horton_Salm,Male,Return of the Jedi,4
+Keyser Salm,1,1.958,https://starwars.fandom.com/wiki/Keyser_Salm,Male,Return of the Jedi,5
+Rabin,1,1.917,https://starwars.fandom.com/wiki/Rabin_(Ewok),Male,Return of the Jedi,3
+Ekelarc Yong,1,1.792,https://starwars.fandom.com/wiki/Ekelarc_Yong,Male,Return of the Jedi,2
+Jake Farrell,1,1.958,https://starwars.fandom.com/wiki/Jake_Farrell,Male,Return of the Jedi,3
+Newland,1,3.125,https://starwars.fandom.com/wiki/Newland,Male,Return of the Jedi,5
+Worrt,1,1.958,https://starwars.fandom.com/wiki/Worrt,Unknown gender,Return of the Jedi,0
+Grizz Frix,1,1.958,https://starwars.fandom.com/wiki/Grizz_Frix,Male,Return of the Jedi,4
+Wunka,1,2.875,https://starwars.fandom.com/wiki/Wunka,Unknown gender,Return of the Jedi,4
+Sarlacc,1,1.833,https://starwars.fandom.com/wiki/Sarlacc,Unknown gender,Return of the Jedi,0
+Pagetti Rook,1,0.458,https://starwars.fandom.com/wiki/Pagetti_Rook,Male,Return of the Jedi,2
+Endicott,1,3.167,https://starwars.fandom.com/wiki/Endicott,Male,Return of the Jedi,9
+Dyer,1,1.458,https://starwars.fandom.com/wiki/Dyer,Male,Return of the Jedi,1
+Finn,304,459.575,https://starwars.fandom.com/wiki/Finn,Male,The Force Awakens,1418
+Rey,252,382.118,https://starwars.fandom.com/wiki/Rey_Skywalker,Female,The Force Awakens,1089
+Han,247,418.871,https://starwars.fandom.com/wiki/Han_Solo,Male,The Force Awakens,1251
+Kylo Ren,121,213.043,https://starwars.fandom.com/wiki/Ben_Solo,Male,The Force Awakens,593
+Poe,117,178.455,https://starwars.fandom.com/wiki/Poe_Dameron,Male,The Force Awakens,642
+BB-8,78,113.994,https://starwars.fandom.com/wiki/BB-8,Male,The Force Awakens,0
+Maz,66,128.497,https://starwars.fandom.com/wiki/Maz_Kanata,Female,The Force Awakens,265
+Chewie,59,80.458,https://starwars.fandom.com/wiki/Chewbacca,Male,The Force Awakens,0
+Hux,56,124.497,https://starwars.fandom.com/wiki/Armitage_Hux,Male,The Force Awakens,315
+Leia,50,84.415,https://starwars.fandom.com/wiki/Leia_Skywalker_Organa_Solo,Female,The Force Awakens,243
+C-3PO,44,75.458,https://starwars.fandom.com/wiki/C-3PO,Male,The Force Awakens,210
+Snoke,31,80.456,https://starwars.fandom.com/wiki/Snoke,Male,The Force Awakens,144
+Male Stormtrooper,29,46.083,https://starwars.fandom.com/wiki/Stormtrooper_(First_Order),Male,The Force Awakens,125
+Bala-Tik,18,33.999,https://starwars.fandom.com/wiki/Bala-Tik,Male,The Force Awakens,98
+Lor San Tekka,15,33.834,https://starwars.fandom.com/wiki/Lor_San_Tekka,Male,The Force Awakens,90
+Unkar,14,28.75,https://starwars.fandom.com/wiki/Unkar_Plutt,Male,The Force Awakens,49
+Phasma,14,29.999,https://starwars.fandom.com/wiki/Phasma,Female,The Force Awakens,72
+Mitaka,12,20.457,https://starwars.fandom.com/wiki/Dopheld_Mitaka,Male,The Force Awakens,62
+Male First Order Officer,11,17.625,https://starwars.fandom.com/wiki/First_Order_officer,Male,The Force Awakens,49
+Rathtar,11,16.708,https://starwars.fandom.com/wiki/Rathtar,Unknown gender,The Force Awakens,0
+Statura,8,15.542,https://starwars.fandom.com/wiki/Ushos_O._Statura,Male,The Force Awakens,48
+R2-D2,8,12.376,https://starwars.fandom.com/wiki/R2-D2,Male,The Force Awakens,0
+Teedo,8,14.624,https://starwars.fandom.com/wiki/Teedo_(Niima_Outpost),Male,The Force Awakens,3
+Snap,7,10.792,https://starwars.fandom.com/wiki/Temmin_Wexley,Male,The Force Awakens,31
+FN-1824,6,9.959,https://starwars.fandom.com/wiki/FN-1824,Male,The Force Awakens,28
+Jess,6,8.25,https://starwars.fandom.com/wiki/Jessika_Pava,Female,The Force Awakens,20
+Female First Order Technician,5,6.834,https://starwars.fandom.com/wiki/First_Order_officer,Female,The Force Awakens,21
+Kenobi,5,16.624,https://starwars.fandom.com/wiki/Obi-Wan_Kenobi,Male,The Force Awakens,19
+Ackbar,5,9.376,https://starwars.fandom.com/wiki/Gial_Ackbar,Male,The Force Awakens,29
+Tasu Leech,4,8.334,https://starwars.fandom.com/wiki/Tasu_Leech,Male,The Force Awakens,12
+Male First Order Announcer,4,6.958,none,Male,The Force Awakens,13
+Yoda,3,5.834,https://starwars.fandom.com/wiki/Yoda,Male,The Force Awakens,7
+Niima Outpost Merchant,3,4.375,https://starwars.fandom.com/wiki/Niima_Outpost,Unknown gender,The Force Awakens,2
+Bastian,3,4.25,https://starwars.fandom.com/wiki/Bastian,Male,The Force Awakens,8
+Ello Asty,3,4.333,https://starwars.fandom.com/wiki/Ello_Asty,Male,The Force Awakens,6
+Yolo Ziff,3,5.916,https://starwars.fandom.com/wiki/Yolo_Ziff,Male,The Force Awakens,20
+Female First Order Officer,3,4.709,https://starwars.fandom.com/wiki/First_Order_officer,Female,The Force Awakens,10
+Female Stormtrooper,3,5.542,https://starwars.fandom.com/wiki/Stormtrooper_(First_Order),Female,The Force Awakens,15
+Quiggold,2,6.083,https://starwars.fandom.com/wiki/Quiggold,Male,The Force Awakens,0
+GA-97,2,4.333,https://starwars.fandom.com/wiki/GA-97,Unknown gender,The Force Awakens,8
+Luke,2,4.334,https://starwars.fandom.com/wiki/Luke_Skywalker,Male,The Force Awakens,2
+Unkar Thug,2,4.084,https://starwars.fandom.com/wiki/Unkar%27s_thugs,Unknown gender,The Force Awakens,0
+Resistance Medic,2,3.5,https://starwars.fandom.com/wiki/Medic,Male,The Force Awakens,8
+Kalonia,2,3.75,https://starwars.fandom.com/wiki/Harter_Kalonia,Female,The Force Awakens,9
+Bazine,2,5.959,https://starwars.fandom.com/wiki/Bazine_Netal,Female,The Force Awakens,8
+Nien Nunb,2,3.791,https://starwars.fandom.com/wiki/Nien_Nunb,Male,The Force Awakens,0
+Niv Lek,2,2.708,https://starwars.fandom.com/wiki/Niv_Lek,Male,The Force Awakens,11
+Male Resistance Soldier,2,2.208,https://starwars.fandom.com/wiki/Resistance_army,Male,The Force Awakens,3
+Datoo,2,3.291,https://starwars.fandom.com/wiki/Erich_S._Datoo,Male,The Force Awakens,8
+Vober Dand,2,3.625,https://starwars.fandom.com/wiki/Vober_Dand,Male,The Force Awakens,9
+Scrapjaw Motito,1,1.292,https://starwars.fandom.com/wiki/Scrapjaw_Motito,Unknown gender,The Force Awakens,0
+FN-2199,1,1.25,https://starwars.fandom.com/wiki/FN-2199,Male,The Force Awakens,1
+Ematt,1,1,https://starwars.fandom.com/wiki/Caluan_Ematt,Male,The Force Awakens,4
+Female Resistance Aide,1,1,https://starwars.fandom.com/wiki/Resistance_officer,Female,The Force Awakens,1
+FN-9330,1,0.958,https://starwars.fandom.com/wiki/FN-9330,Male,The Force Awakens,1
+Brance,1,0.958,https://starwars.fandom.com/wiki/Taslin_Brance,Male,The Force Awakens,3
+Female Resistance Announcer,1,2.792,none,Female,The Force Awakens,4
+Athgar Heece,1,1.417,https://starwars.fandom.com/wiki/Athgar_Heece,Male,The Force Awakens,0
+Kaplan,1,2.708,https://starwars.fandom.com/wiki/Kaplan_(colonel),Male,The Force Awakens,7
+Guich,1,2.25,https://starwars.fandom.com/wiki/Guich,Male,The Force Awakens,8
+Rodinon,1,3.208,https://starwars.fandom.com/wiki/Rodinon,Male,The Force Awakens,9
+Sidon Ithano,1,3.708,https://starwars.fandom.com/wiki/Sidon_Ithano,Male,The Force Awakens,0
+Connix,1,1.333,https://starwars.fandom.com/wiki/Kaydel_Ko_Connix,Female,The Force Awakens,5
+Female Scavenger,1,1.667,https://starwars.fandom.com/wiki/Scavenger,Female,The Force Awakens,0
+Nightwatcher worm,1,1.542,https://starwars.fandom.com/wiki/Nightwatcher_worm,Unknown gender,The Force Awakens,0
+New Republic Senator,1,2.542,https://starwars.fandom.com/wiki/Senator#New_Republic,Female,The Force Awakens,1
+Palpatine,1,1,https://starwars.fandom.com/wiki/Darth_Sidious,Male,The Force Awakens,2
+Grummgar,1,1,https://starwars.fandom.com/wiki/Grummgar,Male,The Force Awakens,0
+Razoo Qin-Fee,1,2.75,https://starwars.fandom.com/wiki/Razoo_Qin-Fee,Male,The Force Awakens,3
+Tabala Zo,1,2.458,https://starwars.fandom.com/wiki/Tabala_Zo,Female,The Force Awakens,8
+Culisetto,1,2.125,https://starwars.fandom.com/wiki/Culisetto,Unknown gender,The Force Awakens,0
+Female Resistance Officer,1,1.125,https://starwars.fandom.com/wiki/Resistance_officer,Female,The Force Awakens,5
+Thanisson,1,2.458,https://starwars.fandom.com/wiki/Thanisson,Male,The Force Awakens,8
+Poe,205,344.17,https://starwars.fandom.com/wiki/Poe_Dameron,Male,The Last Jedi,1091
+Rey,189,313.452,https://starwars.fandom.com/wiki/Rey_Skywalker,Female,The Last Jedi,862
+Luke,185,361.539,https://starwars.fandom.com/wiki/Luke_Skywalker,Male,The Last Jedi,875
+Finn,175,274.996,https://starwars.fandom.com/wiki/Finn,Male,The Last Jedi,864
+Rose,127,209.826,https://starwars.fandom.com/wiki/Rose_Tico,Female,The Last Jedi,616
+Kylo Ren,110,181.245,https://starwars.fandom.com/wiki/Ben_Solo,Male,The Last Jedi,500
+Snoke,101,272.037,https://starwars.fandom.com/wiki/Snoke,Male,The Last Jedi,473
+Leia,70,134.373,https://starwars.fandom.com/wiki/Leia_Skywalker_Organa_Solo,Female,The Last Jedi,361
+Hux,67,144.539,https://starwars.fandom.com/wiki/Armitage_Hux,Male,The Last Jedi,353
+DJ,57,110.375,https://starwars.fandom.com/wiki/DJ,Male,The Last Jedi,241
+Holdo,55,106.29,https://starwars.fandom.com/wiki/Amilyn_Holdo,Female,The Last Jedi,287
+BB-8,47,62.953,https://starwars.fandom.com/wiki/BB-8,Male,The Last Jedi,7
+Yoda,31,67.584,https://starwars.fandom.com/wiki/Yoda,Male,The Last Jedi,124
+Larma D'Acy,27,52.332,https://starwars.fandom.com/wiki/Larma_D'Acy,Female,The Last Jedi,155
+C-3PO,27,54.914,https://starwars.fandom.com/wiki/C-3PO,Male,The Last Jedi,143
+Canto Bight Cop,18,27.333,https://starwars.fandom.com/wiki/Canto_Bight_Police_Department,Male,The Last Jedi,78
+Chewie,17,27.04,https://starwars.fandom.com/wiki/Chewbacca,Male,The Last Jedi,0
+Maz,16,37.332,https://starwars.fandom.com/wiki/Maz_Kanata,Female,The Last Jedi,110
+Peavey,15,28.417,https://starwars.fandom.com/wiki/Edrison_Peavey,Male,The Last Jedi,88
+Connix,14,24.708,https://starwars.fandom.com/wiki/Kaydel_Ko_Connix,Female,The Last Jedi,64
+Resistance Soldier,13,18.292,https://starwars.fandom.com/wiki/Resistance_army,Male,The Last Jedi,65
+Canady,12,19.876,https://starwars.fandom.com/wiki/Moden_Canady,Male,The Last Jedi,61
+Porg,11,16.168,https://starwars.fandom.com/wiki/Porg,Unknown gender,The Last Jedi,0
+Phasma,11,20.624,https://starwars.fandom.com/wiki/Phasma,Female,The Last Jedi,43
+Tallie,10,14.291,https://starwars.fandom.com/wiki/Tallissan_Lintra,Female,The Last Jedi,42
+Male Resistance Pilot,9,13.042,https://starwars.fandom.com/wiki/Resistance_pilot,Male,The Last Jedi,30
+R2-D2,9,11.832,https://starwars.fandom.com/wiki/R2-D2,Male,The Last Jedi,0
+Male First Order Officer,8,15,https://starwars.fandom.com/wiki/First_Order_officer,Male,The Last Jedi,55
+Fathier,7,8.917,https://starwars.fandom.com/wiki/Fathier,Unknown gender,The Last Jedi,0
+Vulptex,6,9,https://starwars.fandom.com/wiki/Vulptex,Unknown gender,The Last Jedi,0
+Thamm,6,8.209,https://starwars.fandom.com/wiki/Thamm,Male,The Last Jedi,30
+Dobbu Scay,6,6.208,https://starwars.fandom.com/wiki/Dobbu_Scay,Male,The Last Jedi,6
+Ackbar,5,8.751,https://starwars.fandom.com/wiki/Gial_Ackbar,Male,The Last Jedi,17
+Stormtrooper,5,5.583,https://starwars.fandom.com/wiki/Stormtrooper_(First_Order),Male,The Last Jedi,21
+Male Resistance Announcer,5,9.208,none,Male,The Last Jedi,28
+Slowen Lo,4,8.376,https://starwars.fandom.com/wiki/Slowen_Lo,Male,The Last Jedi,33
+Oniho Zaya,4,6.75,https://starwars.fandom.com/wiki/Oniho_Zaya,Male,The Last Jedi,4
+Female Resistance Pilot,4,5.667,https://starwars.fandom.com/wiki/Resistance_pilot,Female,The Last Jedi,17
+C'ai,4,5.042,https://starwars.fandom.com/wiki/C'ai_Threnalli,Male,The Last Jedi,0
+Female Resistance Announcer,4,7.376,none,Female,The Last Jedi,22
+Male Resistance Officer,3,6.5,https://starwars.fandom.com/wiki/Resistance_officer,Male,The Last Jedi,16
+Bascus,3,5.25,https://starwars.fandom.com/wiki/Suday_Bascus,Male,The Last Jedi,6
+Nix Jerd,3,5.291,https://starwars.fandom.com/wiki/Nix_Jerd,Male,The Last Jedi,15
+Bargwill Tomder,3,6.75,https://starwars.fandom.com/wiki/Bargwill_Tomder,Male,The Last Jedi,0
+BB-9E,3,3.708,https://starwars.fandom.com/wiki/BB-9E,Unknown gender,The Last Jedi,0
+Anodyne Pilot,3,6.709,https://starwars.fandom.com/wiki/Unidentified_Anodyne_pilot,Male,The Last Jedi,19
+Finch Dallow,3,3.833,https://starwars.fandom.com/wiki/Finch_Dallow,Male,The Last Jedi,15
+Goneril,3,4.667,https://starwars.fandom.com/wiki/Goneril,Female,The Last Jedi,14
+Finalizer Monitor,3,6.833,https://starwars.fandom.com/wiki/Armitage_Hux%27s_First_Order_monitor,Female,The Last Jedi,20
+First Order Pilot,2,2.208,none,Male,The Last Jedi,4
+Resistance Pilot,2,2.834,https://starwars.fandom.com/wiki/Resistance_pilot,Unknown gender,The Last Jedi,5
+Paige,2,2.5,https://starwars.fandom.com/wiki/Paige_Tico,Female,The Last Jedi,2
+Master Codebreaker,2,3.083,https://starwars.fandom.com/wiki/Master_Codebreaker,Male,The Last Jedi,10
+Lanai Caretaker,2,4,https://starwars.fandom.com/wiki/Caretakers,Female,The Last Jedi,0
+Jones,2,3.459,https://starwars.fandom.com/wiki/Huetrin_Jones,Male,The Last Jedi,15
+Mirror Cave Voice,2,2.875,https://starwars.fandom.com/wiki/Mirror_cave,Female,The Last Jedi,2
+Thala-siren,2,4.333,https://starwars.fandom.com/wiki/Thala-siren,Female,The Last Jedi,0
+Jedi Code Chant,2,3.916,https://starwars.fandom.com/wiki/Jedi_Code,Unknown gender,The Last Jedi,0
+Yasto Attsmun,1,2.042,https://starwars.fandom.com/wiki/Yasto_Attsmun,Male,The Last Jedi,0
+Cova Nell,1,1.417,https://starwars.fandom.com/wiki/Cova_Nell,Female,The Last Jedi,3
+Ubbla Mollbro,1,1.167,https://starwars.fandom.com/wiki/Ubbla_Mollbro,Female,The Last Jedi,0
+Female First Order Officer,1,1.417,https://starwars.fandom.com/wiki/First_Order_officer,Female,The Last Jedi,9
+Jaycris Tubbs,1,1.417,https://starwars.fandom.com/wiki/Jaycris_Tubbs,Male,The Last Jedi,2
+Mouse Droid,1,1.458,https://starwars.fandom.com/wiki/MSE-6_series_repair_droid,Unknown gender,The Last Jedi,0
+Bufopel,1,1.083,https://starwars.fandom.com/wiki/Unidentified_Bufopel_(Canto_Bight),Male,The Last Jedi,0
+Gurney Operator,1,1.167,none,Female,The Last Jedi,9
+Teene,1,1.542,https://starwars.fandom.com/wiki/Ben_Teene,Male,The Last Jedi,2
+Sharp,1,0.958,https://starwars.fandom.com/wiki/Sharp_(Resistance),Male,The Last Jedi,1
+Temiri Blagg,1,1.958,https://starwars.fandom.com/wiki/Temiri_Blagg,Male,The Last Jedi,4
+Fathier Race Announcer,1,1.542,https://starwars.fandom.com/wiki/Fathier_racing,Male,The Last Jedi,0
+Resistance Medic,1,2.292,https://starwars.fandom.com/wiki/Medic,Female,The Last Jedi,7
+Lovey,1,2.125,https://starwars.fandom.com/wiki/Lovey,Female,The Last Jedi,3
+Poe,319,476.527,https://starwars.fandom.com/wiki/Poe_Dameron,Male,The Rise of Skywalker,1594
+Rey,232,360.741,https://starwars.fandom.com/wiki/Rey_Skywalker,Female,The Rise of Skywalker,992
+Finn,231,327.494,https://starwars.fandom.com/wiki/Finn,Male,The Rise of Skywalker,964
+C-3PO,128,243.375,https://starwars.fandom.com/wiki/C-3PO,Male,The Rise of Skywalker,655
+Palpatine,101,281.793,https://starwars.fandom.com/wiki/Darth_Sidious,Male,The Rise of Skywalker,500
+Kylo Ren,89,161.295,https://starwars.fandom.com/wiki/Ben_Solo,Male,The Rise of Skywalker,462
+Zorii,53,90.584,https://starwars.fandom.com/wiki/Zorii_Bliss,Female,The Rise of Skywalker,269
+Jannah,50,80.916,https://starwars.fandom.com/wiki/Jannah,Female,The Rise of Skywalker,213
+Lando,37,64.289,https://starwars.fandom.com/wiki/Landonis_Balthazar_Calrissian,Male,The Rise of Skywalker,177
+Male Stormtrooper,35,42.871,https://starwars.fandom.com/wiki/Stormtrooper_(First_Order),Male,The Rise of Skywalker,128
+Chewie,35,51.707,https://starwars.fandom.com/wiki/Chewbacca,Male,The Rise of Skywalker,0
+BB-8,33,49.124,https://starwars.fandom.com/wiki/BB-8,Male,The Rise of Skywalker,0
+Pryde,31,49.332,https://starwars.fandom.com/wiki/Enric_Pryde,Male,The Rise of Skywalker,142
+Luke,30,69.209,https://starwars.fandom.com/wiki/Luke_Skywalker,Male,The Rise of Skywalker,173
+Hux,27,44.582,https://starwars.fandom.com/wiki/Armitage_Hux,Male,The Rise of Skywalker,128
+Rose,20,29.707,https://starwars.fandom.com/wiki/Rose_Tico,Female,The Rise of Skywalker,88
+D-O,20,28.206,https://starwars.fandom.com/wiki/D-O,Male,The Rise of Skywalker,46
+R2-D2,18,25.832,https://starwars.fandom.com/wiki/R2-D2,Male,The Rise of Skywalker,0
+Beaumont,16,25.5,https://starwars.fandom.com/wiki/Beaumont_Kin,Male,The Rise of Skywalker,74
+Leia,16,28.543,https://starwars.fandom.com/wiki/Leia_Skywalker_Organa_Solo,Female,The Rise of Skywalker,66
+Snap,15,20.124,https://starwars.fandom.com/wiki/Temmin_Wexley,Male,The Rise of Skywalker,67
+Han,14,21.541,https://starwars.fandom.com/wiki/Han_Solo,Male,The Rise of Skywalker,40
+Female Stormtrooper,12,16.126,https://starwars.fandom.com/wiki/Stormtrooper_(First_Order),Female,The Rise of Skywalker,35
+Vexis,11,19.458,https://starwars.fandom.com/wiki/Vexis,Unknown gender,The Rise of Skywalker,0
+Babu Frik,11,21.001,https://starwars.fandom.com/wiki/Babu_Frik,Male,The Rise of Skywalker,15
+Sith Eternal cultists,10,14.915,https://starwars.fandom.com/wiki/Sith_cultist,Unknown gender,The Rise of Skywalker,0
+Maz,8,18.874,https://starwars.fandom.com/wiki/Maz_Kanata,Female,The Rise of Skywalker,41
+Ben,8,11.502,https://starwars.fandom.com/wiki/Ben_Solo,Male,The Rise of Skywalker,34
+Wrobie Tyce,6,8.041,https://starwars.fandom.com/wiki/Wrobie_Tyce,Female,The Rise of Skywalker,36
+Male Resistance Pilot,5,8.167,https://starwars.fandom.com/wiki/Resistance_pilot,Male,The Rise of Skywalker,21
+Connix,5,7.25,https://starwars.fandom.com/wiki/Kaydel_Ko_Connix,Female,The Rise of Skywalker,21
+Domaric Quinn,5,11.208,https://starwars.fandom.com/wiki/Domaric_Quinn,Male,The Rise of Skywalker,30
+Larma D'Acy,5,7.833,https://starwars.fandom.com/wiki/Larma_D'Acy,Female,The Rise of Skywalker,22
+Anakin,5,7.833,https://starwars.fandom.com/wiki/Anakin_Skywalker,Male,The Rise of Skywalker,19
+Rey's mother,5,8.333,https://starwars.fandom.com/wiki/Rey's_mother,Female,The Rise of Skywalker,13
+Female Resistance Pilot,4,5.292,https://starwars.fandom.com/wiki/Resistance_pilot,Female,The Rise of Skywalker,8
+Boolio,4,8.458,https://starwars.fandom.com/wiki/Boolio,Male,The Rise of Skywalker,24
+Frantis Griss,4,9.042,https://starwars.fandom.com/wiki/Frantis_Griss,Male,The Rise of Skywalker,23
+Male First Order Officer,4,5.333,https://starwars.fandom.com/wiki/First_Order_officer,Male,The Rise of Skywalker,22
+Male Resistance Crew,3,4.084,https://starwars.fandom.com/wiki/Resistance_technician,Male,The Rise of Skywalker,11
+Nambi Ghima,3,5.083,https://starwars.fandom.com/wiki/Nambi_Ghima,Female,The Rise of Skywalker,0
+Kenobi,3,6.333,https://starwars.fandom.com/wiki/Obi-Wan_Kenobi,Male,The Rise of Skywalker,11
+Masir Trach,3,3.917,https://starwars.fandom.com/wiki/Masir_Trach,Male,The Rise of Skywalker,10
+Kandia,3,4.25,https://starwars.fandom.com/wiki/Tishra_Kandia,Female,The Rise of Skywalker,14
+Aftab,3,3.375,https://starwars.fandom.com/wiki/Aftab_Ackbar,Male,The Rise of Skywalker,13
+Tatooine Elder,3,4.75,https://starwars.fandom.com/wiki/Unidentified_Tatooine_elder,Female,The Rise of Skywalker,12
+Mace,3,4.625,https://starwars.fandom.com/wiki/Mace_Windu,Male,The Rise of Skywalker,12
+Qui-Gon,3,6.542,https://starwars.fandom.com/wiki/Qui-Gon_Jinn,Male,The Rise of Skywalker,14
+Nimi Chireen,2,2.208,https://starwars.fandom.com/wiki/Nimi_Chireen,Female,The Rise of Skywalker,3
+Female Resistance Crew,2,3.333,https://starwars.fandom.com/wiki/Resistance_technician,Female,The Rise of Skywalker,9
+Female Kijimi Resident,2,3.083,https://starwars.fandom.com/wiki/Kijimi,Female,The Rise of Skywalker,12
+Engell,2,3.458,https://starwars.fandom.com/wiki/Amret_Engell,Female,The Rise of Skywalker,11
+Aayla,2,3.208,https://starwars.fandom.com/wiki/Aayla_Secura,Female,The Rise of Skywalker,11
+Amuncie Tidian,2,2.5,https://starwars.fandom.com/wiki/Amuncie_Tidian,Male,The Rise of Skywalker,0
+Chesille Sabrond,2,3.042,https://starwars.fandom.com/wiki/Chesille_Sabrond,Female,The Rise of Skywalker,3
+Vanik,2,3.042,https://starwars.fandom.com/wiki/Seftin_Vanik,Male,The Rise of Skywalker,6
+Klaud,2,4.25,https://starwars.fandom.com/wiki/Klaud,Male,The Rise of Skywalker,0
+Yoda,2,4.333,https://starwars.fandom.com/wiki/Yoda,Male,The Rise of Skywalker,9
+Female First Order Officer,2,2.25,https://starwars.fandom.com/wiki/First_Order_officer,Female,The Rise of Skywalker,5
+Female Final Order Officer,2,3.042,https://starwars.fandom.com/wiki/Final_Order,Female,The Rise of Skywalker,6
+First Order Announcer,2,3.208,none,Unknown gender,The Rise of Skywalker,7
+Rey's father,2,2.458,https://starwars.fandom.com/wiki/Rey%27s_father,Male,The Rise of Skywalker,6
+Pasanna creature,2,3.375,https://starwars.fandom.com/wiki/Pasaana,Unknown gender,The Rise of Skywalker,0
+Milon Lenwith,2,3,https://starwars.fandom.com/wiki/Milon_Lenwith,Male,The Rise of Skywalker,5
+Orbak,2,3.416,https://starwars.fandom.com/wiki/Orbak,Unknown gender,The Rise of Skywalker,0
+Aki-Aki children,1,1.542,https://starwars.fandom.com/wiki/Aki-Aki,Unknown gender,The Rise of Skywalker,0
+Kanan,1,2.958,https://starwars.fandom.com/wiki/Kanan_Jarrus,Male,The Rise of Skywalker,9
+Jawa,1,1.792,https://starwars.fandom.com/wiki/Jawa,Unknown gender,The Rise of Skywalker,1
+Kijimi Resident,1,1.167,https://starwars.fandom.com/wiki/Kijimi,Unknown gender,The Rise of Skywalker,0
+Nien Nunb,1,0.917,https://starwars.fandom.com/wiki/Nien_Nunb,Male,The Rise of Skywalker,5
+Wedge,1,1.125,https://starwars.fandom.com/wiki/Wedge_Antilles,Male,The Rise of Skywalker,3
+Vader,1,1.583,https://starwars.fandom.com/wiki/Anakin_Skywalker,Male,The Rise of Skywalker,2
+Pasaana alien,1,1.958,https://starwars.fandom.com/wiki/Pasaana,Unknown gender,The Rise of Skywalker,0
+Simero Quonit,1,2.75,https://starwars.fandom.com/wiki/Simero_Quonit,Unknown gender,The Rise of Skywalker,5
+Porg,1,1.667,https://starwars.fandom.com/wiki/Porg,Unknown gender,The Rise of Skywalker,0
+Female Resistance Officer,1,1.083,https://starwars.fandom.com/wiki/Resistance_officer,Female,The Rise of Skywalker,0
+CS-9147,1,1.208,https://starwars.fandom.com/wiki/CS-9147,Unknown gender,The Rise of Skywalker,4
+Aki-Aki Storyteller,1,3,https://starwars.fandom.com/wiki/Aki-Aki,Unknown gender,The Rise of Skywalker,0
+Aki-Aki baby,1,1.167,https://starwars.fandom.com/wiki/Aki-Aki,Unknown gender,The Rise of Skywalker,0
+Kalo'ne,1,1.958,https://starwars.fandom.com/wiki/Kalo%27ne,Female,The Rise of Skywalker,1
+Bellava Parnadee,1,1.125,https://starwars.fandom.com/wiki/Bellava_Parnadee,Female,The Rise of Skywalker,3
+Adi,1,1.167,https://starwars.fandom.com/wiki/Adi_Gallia,Female,The Rise of Skywalker,2
+C'ai,1,1.417,https://starwars.fandom.com/wiki/C'ai_Threnalli,Male,The Rise of Skywalker,4
+Kijimi Creature,1,1.917,https://starwars.fandom.com/wiki/Kijimi,Unknown gender,The Rise of Skywalker,0
+Male First Order Pilot,1,1.333,https://starwars.fandom.com/wiki/First_Order_TIE_Fighter_Pilot,Male,The Rise of Skywalker,3
+Ahsoka,1,0.958,https://starwars.fandom.com/wiki/Ahsoka_Tano,Female,The Rise of Skywalker,4
+Luminara,1,1.542,https://starwars.fandom.com/wiki/Luminara_Unduli,Female,The Rise of Skywalker,1
+Etobi,1,1.167,https://starwars.fandom.com/wiki/Etobi,Unknown gender,The Rise of Skywalker,0
+Sith Rey,1,2.208,https://starwars.fandom.com/wiki/Rey_Skywalker,Female,The Rise of Skywalker,7
+Aki-Aki,1,1.958,https://starwars.fandom.com/wiki/Aki-Aki,Unknown gender,The Rise of Skywalker,0
+Wicket,1,1.083,https://starwars.fandom.com/wiki/Wicket_Wystri_Warrick,Male,The Rise of Skywalker,0
+Male Final Order Officer,1,1.875,https://starwars.fandom.com/wiki/Final_Order,Male,The Rise of Skywalker,6
