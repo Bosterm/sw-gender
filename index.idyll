@@ -165,23 +165,24 @@ You can install custom dependencies by running `npm install <package-name> --sav
   }
 }` /]
 
-[data name:"barley" source:"barley.json" /]
-[IdyllVegaLite data:barley spec:`{
-  "width": 500, "height": 250,
+[IdyllVegaLite data:anh-tlj spec:`{
+  "title":"Number of Words By Gender",
+  "width": "container",
+  "height": 350,
   "resolve": {"scale": {"color": "independent"}},
   "layer": [
      {"mark": "bar",
       "encoding": {
-        "x": {"aggregate": "sum", "field": "yield", "type": "quantitative", "stack": "zero"},
-        "y": {"field": "variety", "type": "nominal"},
-        "color": {"field": "site", "type": "nominal"}}
+        "x": {"field": "Movie", "type": "nominal"},
+        "y": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero"},
+        "color": {"field": "Gender", "type": "nominal"}}
      },
-     {"mark": {"type": "text", "dx": -15, "dy": 3},
+     {"mark": {"type": "text", "dx": 0, "dy":15},
       "encoding": {
-        "x": {"aggregate": "sum", "field": "yield", "type": "quantitative", "stack": "zero"},
-        "y": {"field": "variety", "type": "nominal"},
-        "color": {"field": "site", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
-        "text": {"aggregate": "sum", "field": "yield", "type": "quantitative", "format": ".1f"}}
+        "x": {"field": "Movie", "type": "nominal"},
+        "y": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero"},
+        "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
+        "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "format": ".1f"}}
     }
   ]
 }` /]
