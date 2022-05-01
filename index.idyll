@@ -143,25 +143,24 @@ You can install custom dependencies by running `npm install <package-name> --sav
 
 ## Added: test vega-lite
 
-[data name:"barley" source:"barley.json" /]
+[data name:"anh-tlj" source:"anh-tlj.csv" /]
 
-[IdyllVegaLite data:barley spec:`{
-  "title":"Barley",
+[IdyllVegaLite data:anh-tlj spec:`{
+  "title":"Number of Words By Gender",
   "width": "container",
   "height": 350,
   "mark": "bar",
   "encoding": {
-    "x": {"field": "variety"},
-    "y": {"aggregate": "sum", "field": "yield"},
+    "x": {"field": "Movie"},
+    "y": {"aggregate": "sum", "field": "Word Count"},
     "tooltip": [
-      {"field": "variety"},
-      {"aggregate": "sum", "field": "yield"}
+      {"field": "Movie"},
+      {"aggregate": "sum", "field": "Word Count"}
     ],
     "color": {
-      "field": "site",
+      "field": "Gender",
       "type": "nominal",
       "legend": {"orient":"bottom"},
-      "title": "Weather type"
     }
   }
 }` /]
