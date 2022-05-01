@@ -167,6 +167,7 @@ You can install custom dependencies by running `npm install <package-name> --sav
           },
           "legend":{"orient":"bottom"}
         },
+        "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
         "tooltip": [
           {"field": "Movie"},
           {"field": "Gender"},
@@ -179,6 +180,7 @@ You can install custom dependencies by running `npm install <package-name> --sav
         "x": {"field": "Movie", "type": "nominal"},
         "y": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero"},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
+        "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
         "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
     }
   ]
