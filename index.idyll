@@ -158,6 +158,7 @@ You can install custom dependencies by running `npm install <package-name> --sav
         "color": {"field": "Gender", "type": "nominal", "legend":{"orient":"bottom"}},
         "tooltip": [
           {"field": "Movie"},
+          {"field": "Gender"},
           {"aggregate": "sum", "field": "Word Count"}
         ],
       }
