@@ -149,40 +149,25 @@ You can install custom dependencies by running `npm install <package-name> --sav
   "title":"Number of Words By Gender",
   "width": "container",
   "height": 350,
-  "mark": "bar",
-  "encoding": {
-    "x": {"field": "Movie"},
-    "y": {"aggregate": "sum", "field": "Word Count"},
-    "tooltip": [
-      {"field": "Movie"},
-      {"aggregate": "sum", "field": "Word Count"}
-    ],
-    "color": {
-      "field": "Gender",
-      "type": "nominal",
-      "legend": {"orient":"bottom"},
-    }
-  }
-}` /]
-
-[IdyllVegaLite data:anh-tlj spec:`{
-  "title":"Number of Words By Gender",
-  "width": "container",
-  "height": 350,
   "resolve": {"scale": {"color": "independent"}},
   "layer": [
      {"mark": "bar",
       "encoding": {
         "x": {"field": "Movie", "type": "nominal"},
         "y": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero"},
-        "color": {"field": "Gender", "type": "nominal"}}
+        "color": {"field": "Gender", "type": "nominal", "legend":{"orient":"bottom"}},
+        "tooltip": [
+          {"field": "Movie"},
+          {"aggregate": "sum", "field": "Word Count"}
+        ],
+      }
      },
      {"mark": {"type": "text", "dx": 0, "dy":15},
       "encoding": {
         "x": {"field": "Movie", "type": "nominal"},
         "y": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero"},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
-        "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "format": ".1f"}}
+        "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
     }
   ]
 }` /]
