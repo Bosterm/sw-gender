@@ -153,13 +153,13 @@ You can install custom dependencies by running `npm install <package-name> --sav
   "layer": [
      {"mark": "bar",
       "encoding": {
-        "x": {"field": "Movie", 
+        "y": {"field": "Movie", 
           "type": "nominal",
           "axis": {
             "labelAngle": 0
           }
         },
-        "y": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero"},
+        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero"},
         "color": {"field": "Gender", 
           "type": "nominal",
           "scale": {
@@ -177,8 +177,8 @@ You can install custom dependencies by running `npm install <package-name> --sav
      },
      {"mark": {"type": "text", "dx": 0, "dy":15},
       "encoding": {
-        "x": {"field": "Movie", "type": "nominal"},
-        "y": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero"},
+        "y": {"field": "Movie", "type": "nominal"},
+        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero"},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
         "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
         "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
