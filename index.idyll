@@ -176,6 +176,11 @@ You can install custom dependencies by running `npm install <package-name> --sav
       }
      },
      {
+      "transform": [
+        {
+          "filter":{"field": "Gender", "oneOf": ["Male", "Female"]}
+        }
+      ],
       "mark": {"type": "text", "name":"dataLabel", "dx":0, "dy":0, "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
