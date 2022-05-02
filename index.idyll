@@ -181,7 +181,7 @@ You can install custom dependencies by running `npm install <package-name> --sav
           "filter":{"field": "Gender", "oneOf": ["Male", "Female"]}
         }
       ],
-      "mark": {"type": "text", "name":"dataLabel", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
+      "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
@@ -191,6 +191,25 @@ You can install custom dependencies by running `npm install <package-name> --sav
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero"},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
+        "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
+        "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
+    },
+    {
+      "transform": [
+        {
+          "filter":{"field": "Gender", "equal":"Unknown gender"}
+        }
+      ],
+      "mark": {"type": "text", "dx":15, "dy":0, "align":"center", "fontWeight":"bold"},
+      "encoding": {
+        "y": {"field": "Movie", 
+          "type": "nominal", 
+          "sort": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi",
+          "The Phantom Menace", "Attack of the Clones", "Revenge of the Sith",
+          "The Force Awakens", "The Last Jedi", "The Rise of Skywalker"]
+        },
+        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"},
+        "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["black"]}, "legend": null},
         "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
         "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
     }
