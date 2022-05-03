@@ -40,7 +40,7 @@
           "scale": {
             "range": ["#152D49", "#C2834D", "#3D999B"]
           },
-          "legend":{"orient":"bottom"}
+          "legend":{"orient":"top"}
         },
         "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
         "tooltip": [
@@ -93,7 +93,7 @@
           "scale": {
             "range": ["#152D49", "#C2834D", "#3D999B"]
           },
-          "legend":{"orient":"bottom"}
+          "legend":null
         },
         "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
         "tooltip": [
