@@ -141,23 +141,27 @@ Make sure your post has been built, then deploy the docs folder via any static h
 
 You can install custom dependencies by running `npm install <package-name> --save`. Note that any collaborators will also need download the package locally by running `npm install` after pulling the changes.
 
-## Added: test vega-lite
+## Number of Words By Gender
 
 [data name:"StarWarsCharacters" source:"StarWarsCharacters.csv" /]
 
 [IdyllVegaLite data:StarWarsCharacters spec:`{
-  "title":"Number of Words By Gender",
+  "title":"Original Trilogy",
   "width": "container",
-  "height": 500,
+  "height": 175,
   "resolve": {"scale": {"color": "independent"}},
   "layer": [
-     {"mark": "bar",
+     {
+      "transform": [
+        {
+          "filter":{"field": "Movie", "oneOf": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi"]}
+        }
+      ],
+      "mark": "bar",
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal",
-          "sort": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi",
-          "The Phantom Menace", "Attack of the Clones", "Revenge of the Sith",
-          "The Force Awakens", "The Last Jedi", "The Rise of Skywalker"]
+          "sort": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi"]
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
         "color": {"field": "Gender", 
@@ -177,18 +181,15 @@ You can install custom dependencies by running `npm install <package-name> --sav
      },
      {
       "transform": [
-        {
-          "filter":{"field": "Gender", "oneOf": ["Male", "Female"]}
-        }
+        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi"]    
+        }]}}
       ],
       "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
-          "sort": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi",
-          "The Phantom Menace", "Attack of the Clones", "Revenge of the Sith",
-          "The Force Awakens", "The Last Jedi", "The Rise of Skywalker"]
+          "sort": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi"]
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
