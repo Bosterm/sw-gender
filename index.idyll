@@ -113,7 +113,7 @@
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
-          "sort": ["The Phantom Menace", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]
+          "sort": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
@@ -176,6 +176,112 @@
 }` /]
 
 ## Dialogue Duration By Gender
+[IdyllVegaLite data:StarWarsCharacters spec:`{
+  "title":"Original Trilogy",
+  "width": "container",
+  "height": 175,
+  "resolve": {"scale": {"color": "independent"}},
+  "layer": [
+     {
+      "transform": [
+        {
+          "filter":{"field": "Movie", "oneOf": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]}
+        }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": {"field": "Movie", 
+          "type": "nominal",
+          "sort": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]
+        },
+        "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero"},
+        "color": {"field": "Gender", 
+          "type": "nominal",
+          "scale": {
+            "range": ["#152D49", "#C2834D", "#3D999B"]
+          },
+          "legend":{"orient":"top"}
+        },
+        "order": {"aggregate": "sum", "field": "Dialogue Duration", "sort": "descending"},
+        "tooltip": [
+          {"field": "Movie"},
+          {"field": "Gender"},
+          {"aggregate": "sum", "field": "Dialogue Duration", "format": ".0f"}
+        ],
+      }
+     },
+     {
+      "transform": [
+        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]    
+        }]}}
+      ],
+      "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
+      "encoding": {
+        "y": {"field": "Movie", 
+          "type": "nominal", 
+          "title":null,
+          "sort": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]
+        },
+        "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "title":null},
+        "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
+        "order": {"aggregate": "sum", "field": "Dialogue Duration", "sort": "descending"},
+        "text": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "format": ".0f"}}
+    }]
+}` /]
+
+[IdyllVegaLite data:StarWarsCharacters spec:`{
+  "title":"Prequel Trilogy",
+  "width": "container",
+  "height": 175,
+  "resolve": {"scale": {"color": "independent"}},
+  "layer": [
+     {
+      "transform": [
+        {
+          "filter":{"field": "Movie", "oneOf": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]}
+        }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": {"field": "Movie", 
+          "type": "nominal",
+          "sort": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]
+        },
+        "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero"},
+        "color": {"field": "Gender", 
+          "type": "nominal",
+          "scale": {
+            "range": ["#152D49", "#C2834D", "#3D999B"]
+          },
+          "legend":null
+        },
+        "order": {"aggregate": "sum", "field": "Dialogue Duration", "sort": "descending"},
+        "tooltip": [
+          {"field": "Movie"},
+          {"field": "Gender"},
+          {"aggregate": "sum", "field": "Dialogue Duration", "format": ".0f"}
+        ],
+      }
+     },
+     {
+      "transform": [
+        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]    
+        }]}}
+      ],
+      "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
+      "encoding": {
+        "y": {"field": "Movie", 
+          "type": "nominal", 
+          "title":null,
+          "sort": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]
+        },
+        "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "title":null},
+        "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
+        "order": {"aggregate": "sum", "field": "Dialogue Duration", "sort": "descending"},
+        "text": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "format": ".0f"}}
+    }]
+}` /]
+
 [IdyllVegaLite data:StarWarsCharacters spec:`{
   "title":"Sequel Trilogy",
   "width": "container",
