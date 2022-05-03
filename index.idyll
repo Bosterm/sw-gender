@@ -68,3 +68,109 @@
         "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
     }]
 }` /]
+
+[IdyllVegaLite data:StarWarsCharacters spec:`{
+  "title":"Prequel Trilogy",
+  "width": "container",
+  "height": 175,
+  "resolve": {"scale": {"color": "independent"}},
+  "layer": [
+     {
+      "transform": [
+        {
+          "filter":{"field": "Movie", "oneOf": ["The Phantom Menace", "Attack of the Clones", "Revenge of the Sith"]}
+        }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": {"field": "Movie", 
+          "type": "nominal",
+          "sort": ["The Phantom Menace", "Attack of the Clones", "Revenge of the Sith"]
+        },
+        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
+        "color": {"field": "Gender", 
+          "type": "nominal",
+          "scale": {
+            "range": ["#152D49", "#C2834D", "#3D999B"]
+          },
+          "legend":{"orient":"bottom"}
+        },
+        "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
+        "tooltip": [
+          {"field": "Movie"},
+          {"field": "Gender"},
+          {"aggregate": "sum", "field": "Word Count"}
+        ],
+      }
+     },
+     {
+      "transform": [
+        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["The Phantom Menace", "Attack of the Clones", "Revenge of the Sith"]    
+        }]}}
+      ],
+      "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
+      "encoding": {
+        "y": {"field": "Movie", 
+          "type": "nominal", 
+          "title":null,
+          "sort": ["The Phantom Menace", "Attack of the Clones", "Revenge of the Sith"]
+        },
+        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
+        "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
+        "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
+        "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
+    }]
+}` /]
+
+[IdyllVegaLite data:StarWarsCharacters spec:`{
+  "title":"Sequel Trilogy",
+  "width": "container",
+  "height": 175,
+  "resolve": {"scale": {"color": "independent"}},
+  "layer": [
+     {
+      "transform": [
+        {
+          "filter":{"field": "Movie", "oneOf": ["The Force Awakens", "The Last Jedi", "The Rise of Skywalker"]}
+        }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": {"field": "Movie", 
+          "type": "nominal",
+          "sort": ["The Force Awakens", "The Last Jedi", "The Rise of Skywalker"]
+        },
+        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
+        "color": {"field": "Gender", 
+          "type": "nominal",
+          "scale": {
+            "range": ["#152D49", "#C2834D", "#3D999B"]
+          },
+          "legend":{"orient":"bottom"}
+        },
+        "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
+        "tooltip": [
+          {"field": "Movie"},
+          {"field": "Gender"},
+          {"aggregate": "sum", "field": "Word Count"}
+        ],
+      }
+     },
+     {
+      "transform": [
+        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["The Force Awakens", "The Last Jedi", "The Rise of Skywalker"]    
+        }]}}
+      ],
+      "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
+      "encoding": {
+        "y": {"field": "Movie", 
+          "type": "nominal", 
+          "title":null,
+          "sort": ["The Force Awakens", "The Last Jedi", "The Rise of Skywalker"]
+        },
+        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
+        "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
+        "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
+        "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
+    }]
+}` /]
