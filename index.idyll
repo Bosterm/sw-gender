@@ -25,14 +25,14 @@
      {
       "transform": [
         {
-          "filter":{"field": "Movie", "oneOf": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi"]}
+          "filter":{"field": "Movie", "oneOf": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]}
         }
       ],
       "mark": "bar",
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal",
-          "sort": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi"]
+          "sort": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
         "color": {"field": "Gender", 
@@ -52,7 +52,7 @@
      },
      {
       "transform": [
-        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi"]    
+        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]    
         }]}}
       ],
       "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
@@ -60,7 +60,7 @@
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
-          "sort": ["A New Hope", "The Empire Strikes Back", "Return of the Jedi"]
+          "sort": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
@@ -78,14 +78,14 @@
      {
       "transform": [
         {
-          "filter":{"field": "Movie", "oneOf": ["The Phantom Menace", "Attack of the Clones", "Revenge of the Sith"]}
+          "filter":{"field": "Movie", "oneOf": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]}
         }
       ],
       "mark": "bar",
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal",
-          "sort": ["The Phantom Menace", "Attack of the Clones", "Revenge of the Sith"]
+          "sort": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
         "color": {"field": "Gender", 
@@ -105,7 +105,7 @@
      },
      {
       "transform": [
-        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["The Phantom Menace", "Attack of the Clones", "Revenge of the Sith"]    
+        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]    
         }]}}
       ],
       "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
@@ -113,7 +113,7 @@
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
-          "sort": ["The Phantom Menace", "Attack of the Clones", "Revenge of the Sith"]
+          "sort": ["The Phantom Menace", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
@@ -131,14 +131,14 @@
      {
       "transform": [
         {
-          "filter":{"field": "Movie", "oneOf": ["The Force Awakens", "The Last Jedi", "The Rise of Skywalker"]}
+          "filter":{"field": "Movie", "oneOf": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]}
         }
       ],
       "mark": "bar",
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal",
-          "sort": ["The Force Awakens", "The Last Jedi", "The Rise of Skywalker"]
+          "sort": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
         "color": {"field": "Gender", 
@@ -158,7 +158,7 @@
      },
      {
       "transform": [
-        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["The Force Awakens", "The Last Jedi", "The Rise of Skywalker"]    
+        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]    
         }]}}
       ],
       "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
@@ -166,7 +166,7 @@
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
-          "sort": ["The Force Awakens", "The Last Jedi", "The Rise of Skywalker"]
+          "sort": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
