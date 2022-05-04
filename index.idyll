@@ -28,6 +28,7 @@
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal",
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
         "color": {"field": "Gender", 
@@ -54,7 +55,8 @@
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
-          "title":null
+          "title":null,
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
