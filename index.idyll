@@ -12,6 +12,7 @@
 
 
 ## Number of Words By Gender
+These visualizations show every word spoken in the Star Wars saga films broken down by gender. Any characters who have an unclear gender, such as Jawas, Gonk Droids, and porgs, are classified as unknown gender.
 
 [data name:"OTCharacters" source:"OTCharacters.csv" /]
 
@@ -166,6 +167,7 @@
 }` /]
 
 ## Dialogue Duration By Gender
+These visualizations show the amount of time different genders speak, as indicated in subtitle files. In addition to spoken words, this also includes non-transcribable speech, such as R2-D2's beeps, Chewbacca's roars and howls, and noises from other droids and aliens.
 [IdyllVegaLite data:OTCharacters spec:`{
   "title":{"text":"Original Trilogy", "fontSize":"18"},
   "width": "container",
@@ -312,3 +314,9 @@
         "text": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "format": ".0f"}}
     }]
 }` /]
+
+## Takeaways
+
+## How Star Wars Compares to Movies as a Whole
+
+## How I Made the Data
