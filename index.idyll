@@ -17,7 +17,7 @@
 [data name:"OTCharacters" source:"OTCharacters.csv" /]
 
 [IdyllVegaLite data:OTCharacters spec:`{
-  "title":"Original Trilogy",
+  "title":{"text":"Original Trilogy", "fontSize":"18"},
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
@@ -68,7 +68,7 @@
 [data name:"PTCharacters" source:"PTCharacters.csv" /]
 
 [IdyllVegaLite data:PTCharacters spec:`{
-  "title":"Prequel Trilogy",
+  "title":{"text":"Prequel Trilogy", "fontSize":"18"},
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
@@ -118,7 +118,7 @@
 
 [data name:"STCharacters" source:"STCharacters.csv" /]
 [IdyllVegaLite data:STCharacters spec:`{
-  "title":"Sequel Trilogy",
+  "title":{"text":"Sequel Trilogy", "fontSize":"18"},
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
@@ -168,7 +168,7 @@
 
 ## Dialogue Duration By Gender
 [IdyllVegaLite data:OTCharacters spec:`{
-  "title":"Original Trilogy",
+  "title":{"text":"Original Trilogy", "fontSize":"18"},
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
@@ -217,7 +217,7 @@
 }` /]
 
 [IdyllVegaLite data:PTCharacters spec:`{
-  "title":"Prequel Trilogy",
+  "title":{"text":"Prequel Trilogy", "fontSize":"18"},
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
@@ -266,7 +266,7 @@
 }` /]
 
 [IdyllVegaLite data:STCharacters spec:`{
-  "title":"Sequel Trilogy",
+  "title":{"text":"Sequel Trilogy", "fontSize":"18"},
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
