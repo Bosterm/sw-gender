@@ -65,23 +65,21 @@
     }]
 }` /]
 
-[IdyllVegaLite data:StarWarsCharacters spec:`{
+[data name:"PTCharacters" source:"PTCharacters.csv" /]
+
+[IdyllVegaLite data:PTCharacters spec:`{
   "title":"Prequel Trilogy",
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
+  "transform": [{"calculate": "split(datum.Movie, '%')", "as": "Movie"}],
   "layer": [
      {
-      "transform": [
-        {
-          "filter":{"field": "Movie", "oneOf": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]}
-        }
-      ],
       "mark": "bar",
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal",
-          "sort": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
         "color": {"field": "Gender", 
@@ -101,15 +99,15 @@
      },
      {
       "transform": [
-        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]    
-        }]}}
+        {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
+        }
       ],
       "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
-          "sort": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
@@ -118,23 +116,20 @@
     }]
 }` /]
 
-[IdyllVegaLite data:StarWarsCharacters spec:`{
+[data name:"STCharacters" source:"STCharacters.csv" /]
+[IdyllVegaLite data:STCharacters spec:`{
   "title":"Sequel Trilogy",
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
+  "transform": [{"calculate": "split(datum.Movie, '%')", "as": "Movie"}],
   "layer": [
      {
-      "transform": [
-        {
-          "filter":{"field": "Movie", "oneOf": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]}
-        }
-      ],
       "mark": "bar",
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal",
-          "sort": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
         "color": {"field": "Gender", 
@@ -154,15 +149,15 @@
      },
      {
       "transform": [
-        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]    
-        }]}}
+        {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
+        }
       ],
       "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
-          "sort": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
@@ -172,23 +167,19 @@
 }` /]
 
 ## Dialogue Duration By Gender
-[IdyllVegaLite data:StarWarsCharacters spec:`{
+[IdyllVegaLite data:OTCharacters spec:`{
   "title":"Original Trilogy",
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
+  "transform": [{"calculate": "split(datum.Movie, '%')", "as": "Movie"}],
   "layer": [
      {
-      "transform": [
-        {
-          "filter":{"field": "Movie", "oneOf": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]}
-        }
-      ],
       "mark": "bar",
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal",
-          "sort": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,5000]}},
         "color": {"field": "Gender", 
@@ -208,15 +199,15 @@
      },
      {
       "transform": [
-        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]    
-        }]}}
+        {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
+        }
       ],
       "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
-          "sort": ["A New Hope (1977)", "The Empire Strikes Back (1980)", "Return of the Jedi (1983)"]
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "title":null},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
@@ -225,23 +216,19 @@
     }]
 }` /]
 
-[IdyllVegaLite data:StarWarsCharacters spec:`{
+[IdyllVegaLite data:PTCharacters spec:`{
   "title":"Prequel Trilogy",
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
+  "transform": [{"calculate": "split(datum.Movie, '%')", "as": "Movie"}],
   "layer": [
      {
-      "transform": [
-        {
-          "filter":{"field": "Movie", "oneOf": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]}
-        }
-      ],
       "mark": "bar",
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal",
-          "sort": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,5000]}},
         "color": {"field": "Gender", 
@@ -261,15 +248,15 @@
      },
      {
       "transform": [
-        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]    
-        }]}}
+        {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
+        }
       ],
       "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
-          "sort": ["The Phantom Menace (1999)", "Attack of the Clones (2002)", "Revenge of the Sith (2005)"]
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "title":null},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
@@ -278,23 +265,19 @@
     }]
 }` /]
 
-[IdyllVegaLite data:StarWarsCharacters spec:`{
+[IdyllVegaLite data:STCharacters spec:`{
   "title":"Sequel Trilogy",
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
+  "transform": [{"calculate": "split(datum.Movie, '%')", "as": "Movie"}],
   "layer": [
      {
-      "transform": [
-        {
-          "filter":{"field": "Movie", "oneOf": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]}
-        }
-      ],
       "mark": "bar",
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal",
-          "sort": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,5000]}},
         "color": {"field": "Gender", 
@@ -314,15 +297,15 @@
      },
      {
       "transform": [
-        {"filter": {"and": [{"field": "Gender", "oneOf": ["Male", "Female"]}, {"field": "Movie", "oneOf": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]    
-        }]}}
+        {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
+        }
       ],
       "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
-          "sort": ["The Force Awakens (2015)", "The Last Jedi (2017)", "The Rise of Skywalker (2019)"]
+          "sort":{"field": "MovieSort", "op":"min"}
         },
         "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "title":null},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
