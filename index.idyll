@@ -13,7 +13,6 @@
 
 ## Number of Words By Gender
 
-[data name:"StarWarsCharacters" source:"StarWarsCharacters.csv" /]
 [data name:"OTCharacters" source:"OTCharacters.csv" /]
 
 [IdyllVegaLite data:OTCharacters spec:`{
