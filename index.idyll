@@ -317,6 +317,16 @@ These visualizations show the amount of time different genders speak in seconds,
 
 ## How Star Wars Compares to Movies as a Whole
 
+In April 2016, Hanah Anderson and Matt Daniels created what they called [a href:'https://pudding.cool/2017/03/film-dialogue/']"The Largest Ever Analysis of Film Dialogue by Gender"[/a] using as many movie scripts as they could find, 2,000, downloaded from the Internet. This analysis, which they stated was not meant to be fully academic, found that the dialogue in Hollywood films in general are very male dominated.
+
+![quill](static/images/FilmsOverall.png)
+
+In one of the charts they created, shown above, it is clear that the largest group of films fall into the 60% to 90% male range. Most Star Wars films fall into this group as well, with many in the high 80% or even low 90% in the case of A New Hope. Star Wars films thus follow the general pattern of Hollywood films, though possibly scewing even more male than the average.
+
+Here is another view of their data: a scatterplot containing one dot for each of the 2,000 films, and placed based on how heavily male or female the film is:
+
+![quill](static/images/FilmsOverallScatter.png)
+
 ## Data Source
 1. The Phantom Menace: [a href:'https://benostermeier.com/sw-gender/data/1-TPM/1-TPM-Dialogue.csv']Dialogue[/a] - [a href:'https://benostermeier.com/sw-gender/data/1-TPM/1-TPM-Characters.csv']Characters[/a] - [a href:'https://benostermeier.com/sw-gender/data/1-TPM/1-TPM-Characters-dialogue.csv']Characters with Word Counts[/a]
 2. Attack of the Clones: [a href:'https://benostermeier.com/sw-gender/data/2-AotC/2-AotC-Dialogue.csv']Dialogue[/a] - [a href:'https://benostermeier.com/sw-gender/data/2-AotC/2-AotC-Characters.csv']Characters[/a] - [a href:'https://benostermeier.com/sw-gender/data/2-AotC/2-AotC-Characters-dialogue.csv']Characters with Word Counts[/a]
