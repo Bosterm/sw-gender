@@ -51,14 +51,14 @@ These visualizations show every word spoken in the Star Wars saga films broken d
         {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
         }
       ],
-      "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
+      "mark": {"type": "text", "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
           "sort":{"field": "MovieSort", "op":"min"}
         },
-        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
+        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null, "bandPosition": 0.5},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
         "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
         "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
@@ -102,14 +102,14 @@ These visualizations show every word spoken in the Star Wars saga films broken d
         {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
         }
       ],
-      "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
+      "mark": {"type": "text", "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
           "sort":{"field": "MovieSort", "op":"min"}
         },
-        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
+        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null, "bandPosition": 0.5},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
         "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
         "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
@@ -152,14 +152,14 @@ These visualizations show every word spoken in the Star Wars saga films broken d
         {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
         }
       ],
-      "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
+      "mark": {"type": "text", "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
           "sort":{"field": "MovieSort", "op":"min"}
         },
-        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null},
+        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null, "bandPosition": 0.5},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
         "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
         "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
@@ -203,14 +203,14 @@ These visualizations show the amount of time different genders speak in seconds,
         {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
         }
       ],
-      "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
+      "mark": {"type": "text", "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
           "sort":{"field": "MovieSort", "op":"min"}
         },
-        "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "title":null},
+        "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "title":null, "bandPosition": 0.5},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
         "order": {"aggregate": "sum", "field": "Dialogue Duration", "sort": "descending"},
         "text": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "format": ".0f"}}
@@ -252,14 +252,14 @@ These visualizations show the amount of time different genders speak in seconds,
         {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
         }
       ],
-      "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
+      "mark": {"type": "text", "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
           "sort":{"field": "MovieSort", "op":"min"}
         },
-        "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "title":null},
+        "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "title":null, "bandPosition": 0.5},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
         "order": {"aggregate": "sum", "field": "Dialogue Duration", "sort": "descending"},
         "text": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "format": ".0f"}}
@@ -301,14 +301,14 @@ These visualizations show the amount of time different genders speak in seconds,
         {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
         }
       ],
-      "mark": {"type": "text", "dx":-13, "dy":0, "align":"center", "fontWeight":"bold"},
+      "mark": {"type": "text", "align":"center", "fontWeight":"bold"},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
           "title":null,
           "sort":{"field": "MovieSort", "op":"min"}
         },
-        "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "title":null},
+        "x": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "stack": "zero", "title":null, "bandPosition": 0.5},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
         "order": {"aggregate": "sum", "field": "Dialogue Duration", "sort": "descending"},
         "text": {"aggregate": "sum", "field": "Dialogue Duration", "type": "quantitative", "format": ".0f"}}
