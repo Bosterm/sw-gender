@@ -57,7 +57,7 @@ These visualizations show every word spoken in the Star Wars saga films broken d
         {"filter": {"field": "Gender", "oneOf": ["Male", "Female"]}
         }
       ],
-      "mark": {"type": "text", "align":"center", "fontWeight":"bold"},
+      "mark": {"type": "text", "align":"center", "fontWeight":"bold", "fontSize":13},
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal", 
