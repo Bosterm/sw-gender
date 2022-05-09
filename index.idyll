@@ -21,7 +21,13 @@ These visualizations show every word spoken in the Star Wars saga films broken d
   "width": "container",
   "height": 175,
   "resolve": {"scale": {"color": "independent"}},
-  "transform": [{"calculate": "split(datum.Movie, '%')", "as": "Movie"}],
+  "transform": [
+    {"calculate": "split(datum.Movie, '%')", "as": "Movie"},
+    {"joinaggregate": [{"op": "sum", "field": "WordCount", "as": "total"}],
+      "groupby": ["Movie"]
+    },
+    {"calculate": "datum.WordCount / datum.total", "as": "fraction"}
+    ],
   "layer": [
      {
       "mark": "bar",
@@ -30,7 +36,7 @@ These visualizations show every word spoken in the Star Wars saga films broken d
           "type": "nominal",
           "sort":{"field": "MovieSort", "op":"min"}
         },
-        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
+        "x": {"aggregate": "sum", "field": "WordCount", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
         "color": {"field": "Gender", 
           "type": "nominal",
           "scale": {
@@ -38,11 +44,11 @@ These visualizations show every word spoken in the Star Wars saga films broken d
           },
           "legend":{"orient":"top"}
         },
-        "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
+        "order": {"aggregate": "sum", "field": "WordCount", "sort": "descending"},
         "tooltip": [
           {"field": "Movie"},
           {"field": "Gender"},
-          {"aggregate": "sum", "field": "Word Count"}
+          {"aggregate": "sum", "field": "WordCount"}
         ],
       }
      },
@@ -58,10 +64,15 @@ These visualizations show every word spoken in the Star Wars saga films broken d
           "title":null,
           "sort":{"field": "MovieSort", "op":"min"}
         },
-        "x": {"aggregate": "sum", "field": "Word Count", "type": "quantitative", "stack": "zero", "title":null, "bandPosition": 0.5},
+        "x": {"aggregate": "sum", "field": "WordCount", "type": "quantitative", "stack": "zero", "title":null, "bandPosition": 0.5},
         "color": {"field": "Gender", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
-        "order": {"aggregate": "sum", "field": "Word Count", "sort": "descending"},
-        "text": {"aggregate": "sum", "field": "Word Count", "type": "quantitative"}}
+        "order": {"aggregate": "sum", "field": "WordCount", "sort": "descending"},
+        "text": {
+          "aggregate": "sum",
+          "field": "fraction",
+          "type": "quantitative",
+          "format": ".0%"
+        }}
     }]
 }` /]
 
