@@ -199,7 +199,7 @@ These visualizations show every word spoken in the Star Wars saga films broken d
     }]
 }` /]
 
-## DialogueDuration By Gender
+## Dialogue Duration By Gender
 These visualizations show the amount of time different genders speak in seconds, as indicated in subtitle files. In addition to spoken words, this also includes non-transcribable speech, such as R2-D2's beeps, Chewbacca's roars and howls, and noises from other droids and aliens.
 [IdyllVegaLite data:OTCharacters spec:`{
   "title":{"text":"Original Trilogy", "fontSize":"18"},
