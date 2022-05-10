@@ -39,9 +39,8 @@ These visualizations show every word spoken in the Star Wars saga films broken d
         "x": {"aggregate": "sum", "field": "WordCount", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
         "color": {"field": "Gender", 
           "type": "nominal",
-          "scale": {
-            "range": ["#152D49", "#C2834D", "#3D999B"]
-          },
+          "scale": {"range": ["#C2834D", "#152D49", "#3D999B"]},
+          "sort":{"field": "MovieSort", "op":"min"},
           "legend":{"orient":"top"}
         },
         "order": {"aggregate": "sum", "field": "WordCount", "sort": "descending"},
@@ -162,9 +161,8 @@ These visualizations show every word spoken in the Star Wars saga films broken d
         "x": {"aggregate": "sum", "field": "WordCount", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
         "color": {"field": "Gender", 
           "type": "nominal",
-          "scale": {
-            "range": ["#152D49", "#C2834D", "#3D999B"]
-          },
+          "scale": {"range": ["#C2834D", "#152D49", "#3D999B"]},
+          "sort":{"field": "MovieSort", "op":"min"},
           "legend":{"orient":"bottom"}
         },
         "order": {"aggregate": "sum", "field": "WordCount", "sort": "descending"},
@@ -224,9 +222,8 @@ These visualizations show the amount of time different genders speak in seconds,
         "x": {"aggregate": "sum", "field": "DialogueDuration", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,5000]}},
         "color": {"field": "Gender", 
           "type": "nominal",
-          "scale": {
-            "range": ["#152D49", "#C2834D", "#3D999B"]
-          },
+          "scale": {"range": ["#C2834D", "#152D49", "#3D999B"]},
+          "sort":{"field": "MovieSort", "op":"min"},
           "legend":{"orient":"top"}
         },
         "order": {"aggregate": "sum", "field": "DialogueDuration", "sort": "descending"},
@@ -344,9 +341,8 @@ These visualizations show the amount of time different genders speak in seconds,
         "x": {"aggregate": "sum", "field": "DialogueDuration", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,5000]}},
         "color": {"field": "Gender", 
           "type": "nominal",
-          "scale": {
-            "range": ["#152D49", "#C2834D", "#3D999B"]
-          },
+          "scale": {"range": ["#C2834D", "#152D49", "#3D999B"]},
+          "sort":{"field": "MovieSort", "op":"min"},
           "legend":{"orient":"bottom"}
         },
         "order": {"aggregate": "sum", "field": "DialogueDuration", "sort": "descending"},
