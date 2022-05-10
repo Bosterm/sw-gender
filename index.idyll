@@ -6,7 +6,7 @@
   subtitle:"Gendered Dialogue in a Galaxy Far, Far Away"
   author:"Ben Ostermeier"
   authorLink:"https://benostermeier.com"
-  background:"#222222"
+  background:"no-repeat fixed center/cover url('static/images/Stars.png')"
   color:"#ffffff"
    /]
 
