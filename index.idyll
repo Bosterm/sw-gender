@@ -95,9 +95,9 @@ These visualizations show every word spoken in the Star Wars saga films broken d
       "encoding": {
         "y": {"field": "Movie", 
           "type": "nominal",
-          "sort":{"field": "MovieSort", "op":"min"}
+          "sort":{"field": "MovieSort", "op":"min"},
         },
-        "x": {"aggregate": "sum", "field": "WordCount", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
+        "x": {"aggregate": "sum", "field": "WordCount", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}, "axis": {"labelOverlap": true, "labelSeparation":5}},
         "color": {"field": "Gender", 
           "type": "nominal",
           "scale": {
@@ -158,7 +158,7 @@ These visualizations show every word spoken in the Star Wars saga films broken d
           "type": "nominal",
           "sort":{"field": "MovieSort", "op":"min"}
         },
-        "x": {"aggregate": "sum", "field": "WordCount", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}},
+        "x": {"aggregate": "sum", "field": "WordCount", "type": "quantitative", "stack": "zero", "scale": {"domain": [0,10000]}, "axis": {"labelOverlap": true, "labelSeparation":5}},
         "color": {"field": "Gender", 
           "type": "nominal",
           "scale": {"range": ["#C2834D", "#152D49", "#3D999B"]},
